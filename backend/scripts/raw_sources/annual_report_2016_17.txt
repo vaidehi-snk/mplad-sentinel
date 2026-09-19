@@ -1,0 +1,881 @@
+PART - III
+STATE/UT-WISE IMPLEMENTATION STATUS
+
+3.1 ANDHRA PRADESH
+PHYSICAL AND FINANCIAL STATUS FOR THE YEAR 2016-17
+(Andhra Pradesh)
+16th Lok Sabha
+1 Dr Pandula Ravindra Babu|Amalapuram(sc)|6.96|3.68|154|154|54
+2 Shri Muttamsetti Srinivasa Rao|Anakapalle|2.50|3.55|25|98|35
+3 Shri J. C. Divakar Reddi|Anantapur|2.54|1.05|81|46|9
+4 Smt Kothapalli Geetha|Araku(st)|5.00|6.35|269|198|131
+5 Shri Malyadri Sriram|Bapatla|2.56|3.84|105|105|112
+6 Dr. Naramalli Sivaprasad|Chittoor|2.71|2.39|156|156|121
+7 Shri Maganti Venkateswara Rao|Eluru|2.67|7.48|191|173|115
+8 Shri Jayadev Galla|Guntur|5.30|5.21|177|177|100
+9 Shri Kristappa Nim Mala|Hindupur|0.57|4.61|493|402|308
+10 Shri Y. S. Avinash Reddy|Kadapa|2.50|5.65|471|183|199
+11 Shri Thota Narasimham|Kakinada|7.46|3.78|198|198|159
+12 Smt. Butta Renuka|Kurnool|2.67|5.39|343|347|414
+13 Shri Konakalla Narayana Rao|Machilipatnam|2.50|1.43|144|191|52
+14 Shri S. P. Y. Reddy|Nandyal|2.50|2.66|155|194|80
+15 Shri Gokaraju Ganga Raju|Narasapuram|5.16|7.85|307|276|160
+16 Shri Sambasiva Rao Rayapati|Narasaraopet|5.49|3.58|239|239|151
+17 Shri Mekapati Rajamohan Reddy|Nellore(sc)|8.31|8.23|299|299|287
+18 Shri Y. V. Subba Reddy|Ongole|2.63|3.39|259|259|93
+19 Shri Murali Mohan Maganti|Rajahmundry|4.75|2.26|64|64|33
+20 Shri P. V. Midhun Reddy|Rajampet|2.67|2.90|285|285|272
+21 Shri Rammohan Naidu Kinjarapu|Srikakulam|2.62|2.86|18|19|132
+22 Dr. Vara prasadrao Velagapalli|Tirupati(sc)|5.09|5.51|228|228|191
+23 Shri Kesineni Srinivas|Vijayawada|2.50|1.41|2|54|24
+24 Dr. Kambhampati Hari Babu|Visakhapatnam|2.50|1.64|82|46|57
+25 Shri Ashok Gajapathi Raju Pusapati|Vizianagaram|6.44|6.63|656|656|446
+Member of Rajya Sabha
+1 Shri K. Chiranjeevi|Chittoor|5.06|2.29|4|4|121
+2 Dr. K. Keshava Rao|Hyderabad|2.97|4.50|113|74|13
+3 Shri Mohd. Ali Khan|Hyderabad|5.59|5.31|152|153|35
+4 Smt Renuka Chowdhury|Khammam|0.37|2.29|59|59|54
+5 Shri Suresh Prabhu|Krishna|2.50|0.00|1|1|0
+6 Shri T.G. Venkatesh|Kurnool|2.51|0.00|14|12|0
+7 Dr. Thikkavarapu Subba Rami Reddi|Visakhapatnam|4.98|2.62|32|91|24
+8 Smt. Thota Seetharama Lakshmi|West Godavari|5.17|6.21|112|95|91
+9 Shri Tulla Devender Goud|Visakhapatnam|2.77|5.54|122|115|126
+10 Shri V.Vijayasai Reddy|Rangareddy|2.50|0.00|0|0|0
+11 Shri Y.S. Chowdary|Krishna|0.00|2.19|34|37|64
+STATE_TOTAL|Andhra Pradesh|146.15|154.27|6061|5703|5120
+
+3.2 ARUNACHAL PRADESH
+16th Lok Sabha
+1 Shri Ninong Ering|Arunachal East|5.12|3.67|39|53|53
+2 Shri Kiren Rijiju|Arunachal West|5.04|4.91|108|89|83
+Member of Rajya Sabha
+1 Shri Mukut Mithi|Lower Dibang Valley|5.13|5.38|118|110|164
+STATE_TOTAL|Arunachal Pradesh|15.29|13.96|265|252|300
+
+3.3 ASSAM
+16th Lok Sabha
+1 Shri Biren Singh Engti|Autonomous District(st)|2.58|1.85|2|6|75
+2 Shri Siraj Uddin Ajmal|Barpeta|5.20|4.43|164|165|129
+3 Maula Badruddin Ajmal|Dhubri|2.80|6.61|113|137|81
+4 Shri Rameswar Teli|Dibrugarh|2.65|7.19|459|538|579
+5 Smt. Bijoya Chakravarty|Guwahati|7.44|8.71|218|423|342
+6 Shri Kamakhya Parasad Tasa|Jorhat|5.14|2.39|32|15|25
+7 Shri Gourav Gogoi|Kaliabor|5.00|6.73|269|365|220
+8 Shri Radheshyam Biswas|Karimganj (sc)|5.06|1.80|212|201|48
+9 Shri Naba Kumar Sarania (Hira)|Kokrajhar (st)|5.00|5.00|59|68|61
+10 Shri Pradan Baruah|Lakhimpur|0.14|3.05|79|93|104
+11 Shri Ramen Deka|Mangaldoi|7.64|5.94|252|287|331
+12 Shri Rajen Gohain|Nowgong|5.00|5.57|295|317|55
+13 Km. Sushmita Dev|Silchar|2.68|7.04|278|277|210
+14 Shri Ram Prasad Sarmah|Tezpur|7.50|3.38|172|145|68
+Member of Rajya Sabha
+1 Shri Bhubaneswar Kalita|Kamrup|2.67|1.20|8|1|8
+2 Shri Biswajit Daimary|Kamrup Metropolitan|2.69|5.70|59|63|80
+3 Dr. Manmohan Singh|Kamrup Metropolitan|10.11|7.13|31|25|34
+4 Smt. Ranee Narah|Lakhimpur|5.04|4.82|27|25|0
+5 Shri Ripun Bora|Sonitpur|5.01|4.58|39|39|38
+6 Dr. Sanjay Sinh|Kamrup Metropolitan|0.01|3.75|8|8|8
+7 Shri Santiuse Kujur|Darrang|7.67|6.78|92|91|268
+STATE_TOTAL|Assam|102.35|109.27|2868|3433|3292
+
+3.4 BIHAR
+16th Lok Sabha
+1 Shri Tasleem Uddin|Araria|4.55|1.56|14|0|0
+2 Shri Raj Kumar Singh|Arrah|3.63|2.47|65|33|20
+3 Shri Sushil Kumar Singh|Aurangabad|0.34|3.84|146|86|93
+4 Shri Jai Prakash Narayan Yadav|Banka|8.01|8.91|171|493|191
+5 Dr. Bhola Singh|Begusarai|7.70|5.19|55|23|42
+6 Shri Shailesh Kumar Urph Bulo|Bhagalpur|3.27|2.82|162|24|45
+7 Shri Ashwini Kumar Choubey|Buxar|7.81|9.87|189|170|268
+8 Shri Kirti Azad|Darbhanga|2.59|2.13|114|73|73
+9 Shri Hari Manjhi|Gaya (sc)|5.16|1.13|21|13|71
+10 Shri Janak Ram|Gopalganj (sc)|2.84|4.79|441|220|35
+11 Shri Ramvilas Paswan|Hajipur(sc)|5.46|6.23|428|104|49
+12 Dr. Arun Kumar|Jahanabad|2.55|5.08|83|79|73
+13 Shri Chirag Kumar Paswan|Jamui(sc)|3.66|2.77|472|400|26
+14 Shri Birendra Kumar Chaudhary|Jhanjharpur|8.41|6.59|122|152|65
+15 Shri Upendra Kushwaha|Karakat|1.73|4.14|39|64|126
+16 Shri Tariq Anwar|Katihar|3.33|3.65|89|52|52
+17 Shri Choudhary Mahboob Ali Kaiser|Khagaria|3.83|3.13|106|19|15
+18 Shri Mohammad Asrarul Haque|Kishanganj|3.88|5.72|145|96|89
+19 Shri Rajesh Ranjan Pappu Yadav|Madhepura|7.17|8.77|237|40|180
+20 Shri Hukm Deo Narayan Yadav|Madhubani|7.59|4.96|140|108|27
+21 Shri Janardan Singh Sigriwal|Maharajganj|8.27|6.80|165|124|62
+22 Smt. Veena Devi|Munger|4.14|2.89|124|47|51
+23 Shri Ajay Nishad|Muzaffarpur|8.92|9.98|293|271|120
+24 Shri Kaushlendra Kumar|Nalanda|8.06|10.64|248|241|198
+25 Shri Giriraj Singh|Nawada|1.48|5.75|76|62|90
+26 Dr. Sanjay Jaiswal|Paschim Champaran|7.45|7.03|192|119|52
+27 Shri Ram Kripal Yadav|Pataliputra|0.00|0.00|150|0|0
+28 Shri Shatrughana Sinha|Patna Sahib|6.97|8.62|201|60|14
+29 Shri Santosh Kumar|Purnea|6.32|3.84|37|16|24
+30 Shri Radha Mohan Singh|Purvi Champaran|4.94|4.90|270|138|101
+31 Shri Ram Chandra Paswan|Samastipur(sc)|5.20|5.68|0|25|52
+32 Shri Rajiv Pratap Rudy|Saran|13.16|1.83|18|12|7
+33 Shri Chhedi Paswan|Sasaram(sc)|11.92|11.79|219|219|191
+34 Smt. Rama Devi|Sheohar|4.05|6.67|199|65|95
+35 Shri Ram Kumar Sharma|Sitamarhi|6.50|8.23|212|109|25
+36 Shri Om Prakash Yadav|Siwan|6.51|6.48|14|16|29
+37 Smt. Ranjeet Ranjan|Supaul|5.24|5.54|179|39|70
+38 Shri Nityanand Rai|Ujiarpur|0.28|3.22|122|32|49
+39 Shri Rama Kishore Singh|Vaishali|4.01|5.44|55|53|43
+40 Shri Satish Chandra Dubey|Valmiki Nagar|4.29|4.81|114|89|32
+Member of Rajya Sabha
+1 Shri Ali Anwar Ansari|Patna|3.20|7.14|116|95|55
+2 Dr. Anil Kumar Sahani|Muzaffarpur|8.82|9.41|145|85|115
+3 Shri Bashistha Narain Singh|Buxar|2.76|6.25|0|15|25
+4 Dr. C.P. Thakur|Patna|2.50|4.63|295|71|44
+5 Shri Dharmenedra Pradhan|Patna|0.15|2.60|34|35|7
+6 Shri Gopal Narayan Singh|Rohtas|2.50|0.00|0|0|0
+7 Shri Harivansh|Patna|0.10|0.00|1|1|0
+8 Smt. Kahkashan Perween|Bhagalpur|2.60|2.68|17|12|40
+9 Dr. Mahendra Prasad|Jehanabad|0.36|2.91|20|20|23
+10 Shri Ram Jethmalani|Patna|2.50|0.00|0|0|0
+11 Shri Ram Nath Thakur|Samastipur|4.95|7.51|78|88|79
+12 Shri Ravi Shankar Prasad|Patna|3.02|4.69|152|66|6
+13 Shri Ravindra Kishore Sinha|Patna|5.14|5.14|111|56|59
+STATE_TOTAL|Bihar|272.52|336.03|7725|5038|4005
+
+3.12 KARNATAKA
+16th Lok Sabha
+1 Shri Gaddigoudar Parvtag.|Bagalkot|5.00|4.11|72|119|108
+2 Shri P. C. Mohan|Bangalore Central|0.16|3.20|54|54|31
+3 Shri D.V. Sadananda Gowda|Bangalore North|2.60|2.87|0|0|39
+4 Shri D. K. Suresh|Bangalore Rural|0.00|2.80|33|29|4
+5 Shri Ananth Kumar|Bangalore South|0.00|0.00|0|0|0
+6 Shri Angadi Suresh Channabasappa|Belgaum|2.53|4.22|137|106|35
+7 Shri B. Sreeramulu|Bellary(st)|5.08|4.23|69|69|69
+8 Shri Bhagwanth Khuba|Bidar|5.00|3.55|176|156|33
+9 Shri Ramesh Jigajinagi|Bijapur(sc)|5.08|2.09|172|163|56
+10 Shri R. Dhruvanarayana|Chamarajanagar(sc)|5.05|4.75|106|106|111
+11 Dr. M.Veerappa Moily|Chikballapur|10.06|7.20|178|145|76
+12 Shri Prakash Babanna Hukkeri|Chikkodi|0.00|0.74|16|16|16
+13 Shri B. N. Chandrappa|Chitradurga(sc)|5.93|7.33|197|180|75
+14 Shri Nalin Kumar Kateel|Dakshina Kannada|2.83|2.87|66|51|141
+15 Shri G. M. Siddeshwara|Davanagere|5.69|4.95|155|143|65
+16 Shri Pralhad Joshi|Dharwad|5.23|2.33|86|58|6
+17 Shri Mallikarjun Kharge|Gulbarga(sc)|5.29|3.74|92|92|87
+18 Shri H. D. Devegowda|Hassan|2.50|3.54|178|178|97
+19 Shri Udasi Shivakumar|Haveri|0.15|4.82|218|115|42
+20 Dr. K. H. Muniyappa|Kolar(sc)|5.13|4.24|155|155|0
+21 Shri Karadi Sanganna Amarappa|Koppal|5.09|2.25|13|9|99
+22 Shri C. S. Puttaraju|Mandya|2.59|2.47|51|51|46
+23 Shri Prathap Simha|Mysore|2.64|2.00|92|92|170
+24 Shri B. V. Nayak|Raichur(st)|2.66|6.64|89|89|19
+25 Shri B. S. Yeddyurappa|Shimoga|5.08|3.25|20|97|59
+26 Shri Muddahanume Gowda S.P.|Tumkur|5.04|4.08|121|121|67
+27 Smt. Shobha Karandlaje|Udupi Chikmagalur|5.67|4.16|134|104|92
+28 Shri Anant Kumar Hegde|Uttara Kannada|5.00|2.26|153|156|63
+Member of Rajya Sabha
+1 Shri B.K Hariprasad|Bangalore Urban|2.58|3.14|19|18|16
+2 Shri Basawaraj Patil|Gulbarga|2.67|0.74|52|52|24
+3 Shri D. Kupendra Reddy|Bangalore Urban|2.61|3.45|98|98|64
+4 Shri Jairam Ramesh|Chikmagalur|2.50|0.00|0|0|0
+5 Shri K. Rahman Khan|Bangalore Urban|2.50|2.25|0|56|3
+6 Shri K.C Ramamurthy|Bangalore Urban|2.50|0.00|0|0|0
+7 Shri M.V. Rajeev Gowda|Bangalore Urban|5.16|2.17|47|47|32
+8 Smt. Nirmala Sitharaman|Bangalore Urban|2.50|0.00|0|0|0
+9 Shri Oscar Fernandes|Udupi|2.62|2.46|105|67|50
+10 Dr. Prabhakar Kore|Belgaum|5.04|5.46|164|130|73
+11 Shri Rajeev Chandrasekar|Bangalore Urban|5.00|2.08|0|0|6
+12 Shri Rangasayee Ramakrishna|Bangalore Urban|5.04|4.90|102|102|45
+STATE_TOTAL|Karnataka|169.61|156.40|3581|3493|3230
+
+3.15 MAHARASHTRA
+16th Lok Sabha
+1 Shri Dilipkumar Mansukhlal Gandhi|Ahmednagar|5.27|4.13|258|143|122
+2 Shri Sanjay Shamrao Dhotre|Akola|2.86|2.82|115|91|14
+3 Shri Anandrao Vithoba Adsul|Amravati(sc)|5.11|5.68|470|203|181
+4 Shri Chandrakant Bhaurao Khaire|Aurangabad|5.00|3.19|84|77|69
+5 Smt. Supriya Sule|Baramati|5.17|3.89|45|48|58
+6 Dr. Pritam Gopinath Munde|Beed|5.10|3.32|4|199|169
+7 Shri Nanabhau Falgunrao Patole|Bhandara-gondiya|7.52|3.64|95|27|96
+8 Shri Kapil Moreshwar Patil|Bhiwandi|2.64|5.16|197|174|87
+9 Shri Prataprao Ganpatrao Jadhav|Buldhana|0.06|1.91|250|84|8
+10 Shri Hansraj Gangaram Ahir|Chandrapur|5.09|4.84|213|144|137
+11 Dr. Subhash Ramrao Bhamre|Dhule|7.58|2.98|105|90|102
+12 Shri Harishchandra Deoram|Dindori(st)|5.05|3.39|95|95|77
+13 Shri Ashok Mahadeorao Nete|Gadchiroli-chimur(st)|2.61|3.12|611|49|54
+14 Shri Raju Shetty|Hatkanangle|7.50|4.10|249|125|115
+15 Shri Rajeev Shankarrao Satav|Hingoli|5.15|1.75|143|33|101
+16 Shri A. T. Nana Patil|Jalgaon|5.10|3.41|75|82|97
+17 Shri Raosaheb Dadarao Danve|Jalna|2.66|4.32|71|67|81
+18 Dr. Shrikant Eknath Shinde|Kalyan|5.11|5.04|85|55|28
+19 Shri Dhananjay Bhimrao Mahadik|Kolhapur|5.00|4.33|147|146|99
+20 Dr. Sunil Baliram Gaikwad|Latur(sc)|7.54|5.00|362|144|230
+21 Shri Vijaysinh Shankarrao Mohite|Madha|5.07|2.74|334|159|134
+22 Shri Appa Alias Shrirang Chandu|Maval|5.21|3.22|48|51|61
+23 Shri Gopal Chinayya Shetty|Mumbai North|2.65|1.70|53|35|28
+24 Dr. Kirit Somaiya|Mumbai North East|5.11|5.41|47|62|22
+25 Shri Gajanan Chandrakant Kirtikar|Mumbai North West|2.59|3.23|24|25|44
+26 Smt. Poonam Mahajan|Mumbai North-central|5.06|4.96|52|46|90
+27 Shri Arvind Sawant|Mumbai South|4.18|4.82|95|88|109
+28 Shri Rahul Ramesh Shewale|Mumbai South Central|6.24|4.51|88|71|80
+29 Shri Nitin Jairam Gadkari|Nagpur|7.54|4.32|33|23|20
+30 Shri Ashok Shankarrao Chavan|Nanded|2.68|3.55|272|256|91
+31 Dr. Heena Vaijaykumar Gavit|Nandurbar(st)|7.54|5.25|373|284|357
+32 Shri Hemant Tukaram Godse|Nashik|5.09|5.44|70|70|48
+33 Prof Ravindra Vishwanath Gaikwad|Osmanabad|5.16|6.40|475|329|102
+34 Adv. Chintaman Navasha Wanga|Palghar(st)|5.05|1.30|81|56|20
+35 Shri Sanjay Bandu Haribhau|Parbhani|11.62|8.40|105|100|111
+36 Shri Anil Shirole|Pune|5.15|1.37|8|5|6
+37 Shri Anant Geete|Raigad|5.02|4.34|107|91|67
+38 Shri Krupal Balaji Tumane|Ramtek(sc)|7.54|6.02|175|116|136
+39 Shri Vinayak Bhaurao Raut|Ratnagiri-sindhudurg|7.51|2.04|61|24|77
+40 Smt. Raksha Nikhil Khadase|Raver|5.08|2.96|140|109|107
+41 Shri Sanjaykaka Patil|Sangli|2.63|2.64|138|56|56
+42 Shri Chh. Udayanraje Pratapsinha|Satara|2.60|4.69|81|81|14
+43 Shri Sadashiv Kisan Lokhande|Shirdi(sc)|2.85|4.13|301|286|131
+44 Shri Adhalrao Shivaji Dattatrey|Shirur|5.17|3.56|132|101|67
+45 Shri Sharad Bansode|Solapur(sc)|2.63|3.07|249|164|85
+46 Shri Rajan Baburao Vichare|Thane|5.14|6.46|49|30|11
+47 Shri Ramdas Chandrabhanji Tadas|Wardha|5.01|5.96|373|128|126
+48 Ms. Bhavana Pundlikrao Gawali|Yavatmal-washim|2.50|2.76|117|112|68
+Member of Rajya Sabha
+1 Shri Ajay Sancheti|Nagpur|4.92|4.68|50|28|17
+2 Shri Amar Shankar Sable|Pune|2.68|5.17|95|86|64
+3 Shri Anil Desai|Mumbai City|7.36|2.74|71|61|51
+4 Shri D.P. Tripathi|Mumbai City|2.40|1.12|41|41|28
+5 Shri Husain Dalwai|Mumbai Suburban|2.58|5.96|95|73|199
+6 Shri Majeed Memon|Mumbai Suburban|2.60|6.37|63|41|46
+7 Shri P. Chidambaram|Mumbai City|2.50|0.00|4|4|0
+8 Smt Rajani Patil|Beed|7.45|6.99|263|265|181
+9 Shri Rajeev Shukla|Mumbai Suburban|0.25|1.18|17|5|33
+10 Shri Rajkumar Nandlal Dhoot|Aurangabad|5.11|4.64|99|50|70
+11 Shri Ramdas Bandu Athawale|Mumbai Suburban|5.07|5.26|74|88|44
+12 Shri Sanjay Dattatraya Kakade|Pune|2.66|3.05|36|44|80
+13 Shri Sharad Pawar|Pune|3.94|7.31|110|49|91
+14 Smt Vandana Chavan|Pune|2.85|4.18|51|25|43
+15 Dr. Vikas Mahatme|Nagpur|2.54|0.34|27|9|2
+16 Dr. Vinay P. Sahasrabuddhe|Thane|2.54|0.31|14|3|39
+STATE_TOTAL|Maharashtra|320.33|293.88|9661|6590|6078
+
+3.24 TAMIL NADU
+16th Lok Sabha
+1 Shri Hari G.|Arakkonam|5.09|5.79|98|85|89
+2 Shri V. Elumalai|Arani|5.00|2.49|73|57|53
+3 Shri S. R. Vijayakumar|Chennai Central|2.57|5.23|88|125|73
+4 Shri Venkatesh Babu T. G.|Chennai North|3.56|10.62|40|8|125
+5 Dr. J. Jayavardhan|Chennai South|2.56|2.75|39|48|97
+6 Shri Chandrakasi M.|Chidambaram(sc)|2.51|2.66|79|72|90
+7 Shri Nagarajan P.|Coimbatore|8.97|6.61|35|45|66
+8 Shri Arunmozhithevan A.|Cuddalore|2.51|2.35|68|40|112
+9 Dr. Anbumani Ramadoss|Dharamapuri|5.00|5.00|374|197|346
+10 Shri Udhaya Kumar M.|Dindigul|5.23|4.95|43|43|59
+11 Shri Selvakumara Chinnayan S.|Erode|7.85|5.53|87|81|84
+12 Dr. Kamaraj K.|Kallakurichi|5.00|2.50|42|0|70
+13 Smt. Maragatham K.|Kancheepuram(sc)|3.09|3.72|80|80|37
+14 Shri Radhakrishnan P.|Kanniyakumari|2.69|4.94|120|116|69
+15 Dr. Thambidurai M.|Karur|6.58|5.39|73|135|169
+16 Shri Ashok Kumar K.|Krishnagiri|6.83|6.76|27|27|44
+17 Shri R. Gopalakrishnan|Madurai|6.63|8.91|104|106|83
+18 Smt. Bharathi Mohan R. K.|Mayiladuthurai|7.55|5.68|141|108|226
+19 Dr. Gopal K.|Nagapattinam(sc)|2.50|0.00|0|0|21
+20 Shri P. R. Sundaram|Namakkal|7.68|8.09|57|53|132
+21 Shri Gopalakrishnan C.|Nilgiris(sc)|5.26|3.41|53|47|43
+22 Shri Marutharajaa R. P.|Perambalur|7.54|3.54|46|32|25
+23 Shri Mahendran C.|Pollachi|7.53|6.63|101|106|95
+24 Shri Anwhar Raajhaa A.|Ramanathapuram|7.88|6.04|66|48|46
+25 Shri Pannerselvam V.|Salem|6.05|7.56|60|67|125
+26 Shri Senthilnathan PR|Sivaganga|5.04|0.46|58|54|48
+27 Shri Krishnan N. Ramachandran|Sriperumbudur|11.72|6.06|58|58|65
+28 Smt. Vasanthi M.|Tenkasi(sc)|2.56|5.10|40|40|37
+29 Shri Parasuraman K.|Thanjavur|7.56|5.83|149|104|143
+30 Shri Parthipan R.|Theni|8.35|6.18|47|46|41
+31 Shri Jeyasingh Thiyagaraj Natterjee|Thoothukkudi|5.14|2.35|280|275|20
+32 Shri Kumar P.|Tiruchirappalli|6.32|7.58|53|70|139
+33 Shri Prabakaran K. R. P.|Tirunelveli|5.11|4.35|58|54|66
+34 Smt V. Sathyabama|Tiruppur|7.69|7.55|69|52|50
+35 Dr. Venugopal P.|Tiruvallur(sc)|5.03|2.12|20|20|10
+36 Smt Vanaroja R.|Tiruvannamalai|5.00|4.01|85|82|80
+37 Shri Senguttuvan B.|Vellore|5.85|5.00|94|94|83
+38 Shri Rajendran S.|Viluppuram(sc)|0.05|0.05|85|77|12
+39 Shri Radhakrishnan T.|Virudhunagar|5.06|4.73|66|66|73
+Member of Rajya Sabha
+1 Shri A. Vijaykumar|Kanniyakumari|2.54|0.99|85|49|1
+2 Shri A. Navaneetha Krishnan|Chennai|5.09|4.93|54|53|50
+3 Shri A.K. Selvaraj|Coimbatore|7.55|5.01|33|35|51
+4 Shri D. Raja|Vellore|2.51|3.38|33|21|77
+5 Shri K.R Arjunan|Nilgiris|5.00|4.31|42|40|32
+6 SMT. Kani Mozhi|Chennai|5.05|6.64|14|14|131
+7 Dr R Lakshmanan|Villupuram|10.03|4.99|41|30|67
+8 Shri R. Vaithilingam|Thanjavur|2.50|0.00|17|7|0
+9 Shri R.S Bharathi|Chennai|2.52|1.50|39|31|9
+10 Shri S Muthukaruppan|Tirunelveli|5.11|3.77|51|51|49
+11 Shri S.R. Balasubramonian|Coimbatore|2.54|0.00|3|3|0
+12 Smt Sasikala Pushpa|Thoothukudi|4.93|5.85|93|99|56
+13 Shri T Rathinavel|Tiruchirappalli|2.55|7.67|45|48|66
+14 Shri T.K. Rangarajan|Chennai|5.02|7.01|30|30|103
+15 Shri T.K.S. Elangovan|Chennai|5.02|3.85|30|30|7
+16 Shri Tiruchi Siva|Tiruchirappalli|2.63|6.27|156|162|94
+17 Dr. V. Maitreyan|Chennai|5.06|7.58|26|29|113
+18 Smt Vijila Sathyananth|Tirunelveli|2.59|4.62|60|43|61
+STATE_TOTAL|Tamil Nadu|300.56|283.56|4037|3612|4350
+
+3.27 UTTAR PRADESH
+16th Lok Sabha
+1 Dr. Ram Shankar Katheria|Agra(sc)|7.95|9.81|78|98|87
+2 Shri Devendra Singh Alias Bhole|Akbarpur|10.30|10.48|116|116|139
+3 Shri Satish Kumar|Aligarh|2.68|5.99|29|29|55
+4 Shri Shyama Charan Gupta|Allahabad|6.03|6.17|118|130|45
+5 Shri Hari Om Pandey|Ambedkar Nagar|2.53|4.48|403|403|370
+6 Shri Rahul Gandhi|Amethi|2.53|1.93|27|14|36
+7 Shri Kanwar Singh Tanwar|Amroha|5.45|5.00|151|118|115
+8 Shri Dharmendra Kumar|Aonla|2.52|3.40|68|68|27
+9 Shri Mulayam Singh Yadav|Azamgarh|5.12|5.71|136|127|129
+10 Shri Dharmendra Yadav|Badaun|3.25|5.10|51|61|34
+11 Dr. Satya Pal Singh|Baghpat|5.02|2.99|73|44|22
+12 Smt. Sadhvi Savitri Bai Foole|Bahraich(sc)|2.64|5.62|49|49|70
+13 Shri Bharat Singh|Ballia|5.15|4.32|173|109|70
+14 Shri Bhairon Prasad Mishra|Banda|5.17|3.98|66|55|37
+15 Shri Kamlesh Paswan|Bansgaon(sc)|5.09|5.43|110|110|103
+16 Shri Priyanka Singh Rawat|Barabanki(sc)|5.00|2.51|931|931|801
+17 Shri Sontosh Kumar Gangwar|Bareilly|7.50|5.08|97|97|97
+18 Shri Harish Chandra Alias Harish|Basti|2.50|2.15|57|64|28
+19 Shri Virendra Singh|Bhadohi|5.13|7.04|104|82|19
+20 Shri Kunwar Bhartendra|Bijnor|5.03|3.91|175|175|134
+21 Shri Bhola Singh|Bulandshahr(sc)|2.66|5.48|946|341|307
+22 Dr. Mahendra Nath Pandey|Chandauli|5.17|4.82|95|95|25
+23 Shri Kalraj Mishra|Deoria|2.59|4.96|2049|2049|83
+24 Smt. Rekha|Dhaurahra|5.13|4.52|179|179|124
+25 Shri Jagdambika Pal|Domariyaganj|5.19|4.89|75|63|62
+26 Shri Rajveer Singh (Raju Bhaiya)|Etah|5.08|4.76|700|700|720
+27 Shri Ashok Kumar Doharey|Etawah(sc)|2.70|1.19|10|10|4
+28 Shri Lallu Singh|Faizabad|2.56|5.88|851|851|747
+29 Shri Mukesh Rajput|Farrukhabad|3.20|2.30|40|37|14
+30 Sadhv Niranjan Jyoti|Fatehpur|5.10|5.03|34|34|33
+31 Shri Babulal|Fatehpur Sikri|5.12|2.69|123|123|86
+32 Shri Akshay Yadav|Firozabad|0.22|3.38|20|20|27
+33 Dr. Mahesh Sharma|Gautam Buddha Nagar|5.16|5.08|33|33|28
+34 Shri Vijay Kumar Singh|Ghaziabad|2.55|3.04|0|25|15
+35 Shri Manoj Sinha|Ghazipur|5.15|2.20|64|63|5
+36 Shri Harinarayan Rajbhar|Ghosi|5.21|7.54|39|34|48
+37 Shri Kirti Vardhan Singh|Gonda|2.60|2.37|46|46|25
+38 Shri Yogi Adityanath|Gorakhpur|5.11|5.23|134|134|110
+39 Shri Kanwar Pushpendra Singh|Hamirpur|0.17|0.42|24|24|0
+40 Shri Anshul Verma|Hardoi (sc)|5.30|5.44|19|19|14
+41 Shri Rajesh Kumar Diwaker|Hathras (sc)|2.63|3.20|17|49|33
+42 Shri Bhanu Pratap Singh Verma|Jalaun(sc)|2.71|1.98|371|18|16
+43 Shri Krishna Pratap "K. P."|Jaunpur|5.16|5.14|42|45|26
+44 Km. Uma Bharati|Jhansi|2.50|3.26|37|37|49
+45 Shri Hukum Singh|Kairana|5.15|6.12|122|107|81
+46 Shri Brij Bhusan Sharan Singh|Kaiserganj|5.07|1.91|13|13|40
+47 Smit. Dimple Yadav|Kannauj|3.29|1.20|46|41|6
+48 Dr. Murli Monohar Joshi|Kanpur|7.56|7.88|146|146|256
+49 Shri Vinod Kumar Sonkar|Kaushambi(sc)|5.00|5.32|55|55|28
+50 Shri Ajay Kumar|Kheri|5.10|6.10|41|46|72
+51 Shri Rajesh Pandey Urf Guddu|Kushi Nagar|5.03|2.74|53|53|8
+52 Smt. Neelam Sonkar|Lalganj (sc)|5.15|7.66|49|72|68
+53 Shri Raj Nath Singh|Lucknow|2.71|5.86|77|77|198
+54 Shri Ram Charitra Nishad|Machhlishahr(sc)|5.12|5.11|20|24|17
+55 Shri Pankaj Chowdhary|Maharajganj|3.02|5.11|71|71|33
+56 Shri Tej Pratap Singh Yadav|Mainpuri|7.55|6.22|52|55|60
+57 Smt. Hema Malini|Mathura|5.24|1.88|577|577|539
+58 Shri Rajendra Agarwal|Meerut|2.63|4.26|47|47|35
+59 Smt. Anupriya Singh Patel|Mirzapur|7.65|5.67|307|307|139
+60 Smt. Anju Bala|Misrikh(sc)|3.28|4.42|34|33|44
+61 Shri Kaushal Kishore|Mohanlalganj(sc)|5.08|5.58|32|30|35
+62 Shri Kunwer Servesh Kumar|Moradabad|5.11|5.23|111|73|153
+63 Dr. Sanjeev Kumar Balyan|Muzaffarnagar|7.52|5.04|90|89|57
+64 Shri Yashwant Singh|Nagina(sc)|5.00|3.31|21|47|22
+65 Shri Keshav Prasad Maurya|Phulpur|5.03|2.48|30|33|30
+66 Smt. Maneka Sanjay Gandhi|Pilibhit|5.08|4.46|136|136|104
+67 Shri Kuwar Harivansh Singh|Pratapgarh|8.24|5.26|49|49|23
+68 Smt. Sonia Gandhi|Rae Bareli|5.11|5.72|23|22|41
+69 Dr. Nepal Singh|Rampur|5.06|5.60|114|118|122
+70 Shri Chhotelal|Robertsganj(sc)|5.80|5.13|103|104|174
+71 Shri Raghav Lakhanpal|Saharanpur|5.18|6.04|136|136|126
+72 Shri Ravindra Kushawaha|Salempur|2.64|4.59|1226|1226|29
+73 Shri Satyapal Singh|Sambhal|5.10|6.09|278|465|473
+74 Shri Sharad Tripathi|Sant Kabir Nagar|5.00|4.05|101|71|153
+75 Smt Krishna Raj|Shahjahanpur(sc)|5.05|4.89|41|41|56
+76 Shri Daddan Mishra|Shrawasti|2.62|2.78|45|45|36
+77 Shri Rajesh Verma|Sitapur|5.08|4.16|20|20|17
+78 Shri Feroze Varun Gandhi|Sultanpur|5.00|4.44|58|58|68
+79 Shri Swami Sachchidanand Hari|Unnao|0.38|1.97|44|44|11
+80 Shri Narendra Modi|Varanasi|5.62|3.07|107|107|47
+Member of Rajya Sabha
+1 Shri Alok Tiwari|Siddharth Nagar|5.43|4.22|47|46|54
+2 Shri Amar Singh|Varanasi|0.00|0.00|0|0|0
+3 Shri Ashok Siddharth|Farrukhabad|2.50|0.05|1|0|0
+4 Shri Beni Prasad Verma|Barabanki|2.50|0.00|0|0|0
+5 Dr. Chandrapal Singh Yadav|Jhansi|0.13|1.49|40|40|5
+6 Shri Chaudhary Munvvar Saleem|Rampur|7.53|5.80|32|32|27
+7 Shri Darshan Singh Yadav|Mainpuri|5.03|4.88|24|24|48
+8 Shri. Javed Ali Khan|Moradabad|0.12|2.11|409|401|17
+9 Smt Jaya Bachchan|Sant Ravidas Nagar|3.07|2.57|3|4|4
+10 Shri Kapil Sibal|Rae Bareli|2.52|1.41|114|63|44
+11 Shri Kiranmay Nanda|Lucknow|5.00|1.52|37|37|11
+12 Shri Munquad Ali|Muzaffarnagar|7.80|8.63|553|553|586
+13 Shri Naresh Agrawal|Hardoi|2.50|0.00|0|0|0
+14 Shri Neeraj Shekhar|Ballia|0.00|0.00|0|0|0
+15 Shri P.L. Punia|Barabanki|2.50|1.61|177|177|62
+16 Shri Pramod Tiwari|Pratapgarh|8.02|5.69|72|72|55
+17 Shri Raja Ram|Azamgarh|5.03|2.85|3|10|72
+18 Shri Ram Gopal Yadav|Etawah|2.72|2.88|13|12|473
+19 Shri Ravi Prakash Verma|Kheri|5.08|4.09|26|26|13
+20 Shri Rewati Raman Singh|Allahabad|2.50|1.27|180|120|82
+21 Shri Sanjay Seth|Lucknow|2.50|0.00|0|0|0
+22 Shri Satish Chandra Misra|Lucknow|0.00|0.00|0|0|0
+23 Shri Shiv Pratap Shukla|Gorakhpur|2.50|0.00|0|0|0
+24 Shri Sukhram Singh Yadav|Kanpur Nagar|2.56|0.08|6|6|1
+25 Shri Surendra Singh Nagar|Gautambudhnagar|2.50|0.00|0|0|0
+26 Dr. Tazeen Fatma|Rampur|2.69|4.03|29|30|19
+27 Shri Veer Singh|Moradabad|5.18|4.84|180|172|105
+28 Shri Vinay Katiyar|Faizabad|2.65|2.74|35|35|34
+29 Shri Vishambhar Prasad Nishad|Banda|5.00|4.78|74|78|52
+STATE_TOTAL|Uttar Pradesh|506.53|485.79|18206|16610|12636
+
+3.29 WEST BENGAL
+16th Lok Sabha
+1 Dasrath Tirkey|Alipurduars(st)|10.65|8.17|57|54|44
+2 Smt Aparupa Poddar (Afrin Ali)|Arambag(sc)|5.03|6.52|76|68|98
+3 Shri Babul Supriya Baral (Babul)|Asansol|5.02|3.91|90|79|16
+4 Shri Adhir Ranjan Chowdhury|Baharampur|2.62|1.99|129|48|19
+5 Smt. Arpita Ghosh|Balurghat|7.68|8.21|132|129|69
+6 Smt. Mamata Thakur|Bangaon(sc)|8.31|9.89|286|219|147
+7 Smt. Sreemati Dev Verma (Moon)|Bankura|7.50|3.84|29|32|30
+8 Dr. Kakoli Ghoshdostidar|Barasat|5.34|6.53|124|89|54
+9 Shri Sunil Kumar Mondal|Bardhaman Purba(sc)|5.03|4.90|31|31|60
+10 Dr. Mamtaz Sanghamita|Bardhaman-durgapur|5.05|4.67|73|63|48
+11 Shri Dinesh Trivedi|Barrackpur|5.58|7.74|17|61|67
+12 Shri Idris Ali|Basirhat|5.36|7.41|199|198|222
+13 Smt Satabdi Roy|Birbhum|6.59|6.59|160|152|215
+14 Shri Saumitra Khan|Bishnupur(sc)|0.00|3.54|4|9|26
+15 Dr. Anupam Hazra|Bolpur(sc)|2.57|2.59|11|20|60
+16 Shri Partha Pratim Ray|Coochbehar(sc)|5.44|3.78|47|47|86
+17 Shri S. S. Ahluwalia|Darjeeling|2.63|1.75|35|32|15
+18 Shri Abhishek Banerjee|Diamond Harbour|9.00|8.55|155|182|177
+19 Prof. Saugata Roy|Dum Dum|5.06|3.89|46|84|81
+20 Shri Deepak (Dev) Adhikari|Ghatal|6.32|5.30|53|53|82
+21 Dr. Ratna De (Nag)|Hooghly|5.80|6.38|103|91|67
+22 Shri Prasun Banerjee|Howrah|9.11|6.69|136|100|120
+23 Smt. Sugata Bose|Jadavpur|6.32|5.29|132|114|91
+24 Shri Bijoy Chandra Barman|Jalpaiguri(sc)|8.26|4.07|55|53|65
+25 Shri Abhijit Mukherjee|Jangipur|2.67|2.68|13|39|65
+26 Dr. Uma Saren|Jhargram(st)|1.85|4.94|36|36|16
+27 Smt. Pratima Mondal|Joynagar(sc)|7.67|7.82|160|154|238
+28 Shri Sisir Kumar Adhikari|Kanthi|5.02|3.79|22|21|19
+29 Smt. Subrata Bakshi|Kolkata Dakshin|2.90|2.79|55|46|43
+30 Shri Sudip Bandyopadhyay|Kolkata Uttar|2.95|4.16|48|45|62
+31 Dr. Tapas Paul|Krishnanagar|5.67|7.13|82|106|134
+32 Shri Abu Hasem Khan Chowdhury|Maldaha Dakshin|5.00|2.18|70|65|55
+33 Smt. Mausam Noor|Maldaha Uttar|2.50|0.92|102|5|50
+34 Shri Mohan Jatua Choudhury|Mathurapur(sc)|5.68|5.95|182|179|198
+35 Smt. Sandhya Roy|Medinipur|6.70|8.89|219|210|224
+36 Shri Badaruddoza Khan|Murshidabad|2.70|3.31|51|39|33
+37 Dr. Mriganka Mahato|Purulia|5.06|4.43|88|71|70
+38 Md. Salim|Raiganj|8.26|5.23|71|97|99
+39 Shri Tapas Mandal|Ranaghat(sc)|3.26|5.31|159|140|90
+40 Shri Kalyan Banerjee|Sreerampur|5.75|7.12|97|95|88
+41 Shri Dibyendu Adhikari|Tamluk|5.02|5.82|201|182|213
+42 Shri Sultan Ahmed|Uluberia|9.10|6.61|181|178|186
+Member of Rajya Sabha
+1 Shri Ahamed Hassan|Kolkata|3.16|5.45|9|7|3
+2 Prof. Jogen Chowdhury|Kolkata|5.15|5.05|14|19|18
+3 Dr Kanwar Deep Singh|Kolkata|2.74|4.70|5|5|0
+4 Shri Kunal Kumar Ghosh|Kolkata|0.62|3.56|53|65|4
+5 Shri Manish Gupta|Kolkata|0.00|0.00|0|0|0
+6 Shri Md. Nadimul Haque|Kolkata|2.89|0.18|13|14|12
+7 Shri Mukul Roy|Kolkata|2.95|3.48|20|10|24
+8 Shri Ritabrata Banerjee|Kolkata|0.32|0.22|13|13|20
+9 Shri Tapan Kumar Sen|Kolkata|3.03|1.11|0|16|70
+10 Shri Vivek Gupta|Kolkata|5.46|1.13|15|10|1
+STATE_TOTAL|West Bengal|297.12|319.87|4563|4250|5415
+
+3.5 CHHATTISGARH
+16th Lok Sabha
+1 Shri Dinesh Kashyap|Bastar(st)|7.57|6.55|145|103|94
+2 Shri Lakhan Lal Sahu|Bilaspur|8.85|10.21|239|204|137
+3 Shri Tamradhwaj Sahu|Durg|12.88|8.81|353|431|223
+4 Smt. Kamla Patle|Janjgir Champa(sc)|9.12|8.25|216|249|250
+5 Shri Vikram Dev Usendi|Kanker(st)|0.07|2.67|86|54|54
+6 Dr. Banshilal Mahto|Korba|8.37|7.04|213|93|138
+7 Shri Chandu Lal Sahu|Mahasamund|7.32|6.38|116|155|106
+8 Shri Vishnu Deo Sai|Raigarh(st)|6.31|8.02|176|170|119
+9 Shri Ramesh Bais|Raipur|5.15|4.57|322|199|183
+10 Shri Abhishek Singh|Rajnandgaon|7.62|5.52|255|248|210
+11 Shri Kamalbhan Singh Marabi|Sarguja(st)|8.29|4.64|582|182|147
+Member of Rajya Sabha
+1 Shri Bhushan Lal Jangde|Raipur|6.01|3.62|155|126|160
+2 Smt. Chhaya Verma|Raipur|5.38|1.24|203|155|15
+3 Shri Moti Lal Vora|Durg|9.14|6.84|650|195|569
+4 Shri Ram Vichar Netam|Balrampur-ramanujganj|2.50|0.00|0|0|0
+5 Shri Ranvijay Singh Judev|Jashpur|5.98|4.94|46|51|72
+STATE_TOTAL|Chhattisgarh|120.06|108.89|3918|2758|3048
+
+3.6 GOA
+16th Lok Sabha
+1 Shri Shripad Yesso Naik|North Goa|4.37|4.92|29|39|16
+2 Shri Advocate Narendra Keshav|South Goa|2.62|2.74|26|47|33
+Member of Rajya Sabha
+STATE_TOTAL|Goa|9.79|14.44|83|114|107
+
+3.7 GUJARAT
+16th Lok Sabha
+1 Shri Paresh Rawal|Ahmedabad East|5.00|4.57|223|288|192
+2 Dr. Kirit P Solanki|Ahmedabad West(sc)|2.50|2.91|126|125|28
+3 Shri Kachhadiya Naranbhai|Amreli|3.04|4.69|171|246|172
+4 Shri Dilip Patel|Anand|2.62|4.89|301|313|243
+5 Shri Chaudhary Haribhai Parthibhai|Banaskantha|2.56|2.40|176|121|121
+6 Shri Parbhubhai Nagarbhai Vasava|Bardoli(st)|5.00|4.13|284|337|254
+7 Shri Vasava Mansukhbhai|Bharuch|5.10|3.64|198|185|144
+8 Dr. Bharatiben Dhirubhai Shiyal|Bhavnagar|5.11|5.35|835|139|197
+9 Shri Ramsinh Rathwa|Chhota Udaipur(st)|2.55|3.17|189|98|206
+10 Shri Jasvantsinh Sumanbhai|Dahod(st)|3.86|5.75|16|344|583
+11 Shri L. K. Advani|Gandhinagar|5.14|2.76|37|56|64
+12 Smt. Poonamben Hematbhai|Jamnagar|5.15|3.14|55|64|83
+13 Shri Chudasama Rajeshbhai|Junagadh|7.84|5.72|270|273|184
+14 Shri Vinod Chavda Lakhamashi|Kachchh(sc)|2.52|3.40|102|134|134
+15 Shri Chauhan Devusinh Jesingbhai|Kheda|2.54|3.58|380|274|169
+16 Smt. Jayshreeben Kanubhai Patel|Mahesana|5.11|4.54|338|391|240
+17 Shri C. R. Patil|Navsari|5.00|3.31|195|184|170
+18 Shri Prabhatsinh Pratapsinh|Panchmahal|3.51|5.25|313|261|255
+19 Shri Liladharbhai Khodaji Vaghela|Patan|2.50|2.46|101|84|113
+20 Shri Vithalbhai Hansrajbhai|Porbandar|5.12|7.13|225|171|222
+21 Shri Kundariya Mohanbhai|Rajkot|7.61|7.08|221|228|202
+22 Shri Dipsinh Shankarsinh Rathod|Sabarkantha|2.63|2.45|339|161|203
+23 Smt. Darshana Vikram Jardosh|Surat|5.01|4.14|521|485|242
+24 Shri Devajibhai Govindhai Fatepara|Surendranagar|5.15|5.91|106|112|135
+25 Smt. Ranjanben Bhatt|Vadodara|4.54|3.21|199|175|104
+26 Dr. K. C. Patel|Valsad(st)|5.11|5.69|168|165|155
+Member of Rajya Sabha
+1 Shri Arun Maharajkishan Jaitley|Kheda|2.60|3.19|20|23|118
+2 Shri Chunibhai Kanjibhai Gohel|Gir Somnath|5.53|4.29|164|165|178
+3 Shri Lal Sinh Vadodia|Anand|2.91|4.24|296|264|151
+4 Shri Madhusudan Devram Mistry|Banaskantha|6.42|4.57|195|173|173
+5 Shri Mansukh L. Mandaviya|Bhavnagar|3.00|4.40|39|33|54
+6 Shri Parshottambhai Khoda Rupala|Amreli|2.50|0.00|37|9|0
+7 Mhant Shambhuprasadji Tundiya|Ahmedabad|7.90|5.03|151|102|139
+8 Shri Shankarbhai Vegad|Surendranagar|7.90|6.83|136|128|100
+STATE_TOTAL|Gujarat|182.61|181.84|8339|7533|7127
+
+3.8 HARYANA
+16th Lok Sabha
+1 Shri Rattan Lal Kataria|Ambala(sc)|5.08|5.38|215|109|85
+2 Shri Dharambir S/O Bhale Ram|Bhiwani-mahendragarh|5.28|2.87|58|58|30
+3 Shri Krishan Pal|Faridabad|7.79|5.97|109|109|87
+4 Shri Inderjit Singh Rao|Gurgaon|5.08|2.63|225|144|50
+5 Shri Dushyant Chautala|Hisar|5.08|3.93|551|144|108
+6 Shri Ashwini Kumar|Karnal|5.21|5.12|113|101|77
+7 Shri Raj Kumar Saini|Kurukshetra|2.75|2.74|122|91|59
+8 Shri Deepender Singh Hooda|Rohtak|5.00|4.91|72|77|73
+9 Shri Charanjeet Singh Rori|Sirsa(sc)|5.07|4.05|370|187|134
+10 Shri Ramesh Chander|Sonepat|6.07|2.75|38|38|59
+Member of Rajya Sabha
+1 Shri Ram Kumar Kashyap|Kurukshetra|5.04|4.19|125|92|85
+2 Km. Selja|Ambala|2.50|1.76|21|16|12
+3 Shri Shadi Lal Batra|Rohtak|5.01|4.97|67|48|44
+4 Dr. Subhash Chandra|Hissar|2.50|0.05|2|2|0
+STATE_TOTAL|Haryana|70.70|59.41|2165|1302|1084
+
+3.9 HIMACHAL PRADESH
+16th Lok Sabha
+1 Shri Anurag Singh Thakur|Hamirpur|5.27|3.88|607|607|290
+2 Shri Shanta Kumar|Kangra|5.70|7.30|518|518|131
+3 Shri Ram Swaroop Sharma|Mandi|5.22|6.45|477|477|118
+4 Shri Virender Kashyap|Shimla(sc)|5.05|6.70|482|398|263
+Member of Rajya Sabha
+1 Shri Anand Sharma|Shimla|2.55|2.00|54|45|17
+2 Shri Jagat Parkash Nadda|Bilaspur|8.57|7.34|208|278|52
+3 Smt. Viplove Thakur|Kangra|5.83|5.73|229|229|20
+STATE_TOTAL|Himachal Pradesh|38.18|39.39|2575|2552|891
+
+3.10 JAMMU & KASHMIR
+16th Lok Sabha
+1 Ms. Mehbooba Mufti|Anantnag|2.52|0.54|5|21|61
+2 Shri Muzaffar Hussain Baig|Baramullah|2.50|4.97|313|3|197
+3 Shri Jugal Kishore|Jammu|3.04|4.75|154|159|118
+4 Shri Thupstan Chhewang|Ladakh|5.05|6.44|139|215|165
+5 Dr. Farooq Abdullah|Srinagar|2.53|4.09|104|104|116
+6 Dr. Jitendra Singh|Udhampur|5.00|3.46|115|79|39
+Member of Rajya Sabha
+1 Shri Ghulam Nabi Azad|Doda|2.55|3.52|84|84|56
+2 Shri Mir Mohammad Fayaz|Kupwara|2.57|5.01|339|1237|325
+3 Shri Nazir Ahmed Laway|Kulgam|5.09|4.28|330|330|193
+4 Shri Shamsher Singh Manhas|Jammu|2.60|2.89|77|77|45
+STATE_TOTAL|Jammu & Kashmir|36.78|44.34|1670|2309|1377
+
+3.11 JHARKHAND
+16th Lok Sabha
+1 Shri Sunil Kumar Singh|Chatra|7.55|5.59|148|120|74
+2 Shri Pashupati Nath Singh|Dhanbad|5.18|4.62|342|245|262
+3 Shri Shibu Soren|Dumka(st)|2.57|3.28|111|113|86
+4 Dr. Ravindra Kumar Pandey|Giridih|5.12|5.31|377|183|695
+5 Shri Nishikant Dubey|Godda|2.50|0.00|0|0|0
+6 Shri Jayant Sinha|Hazaribagh|5.09|5.05|2|199|194
+7 Shri Bidyut Baran Mahato|Jamshedpur|3.53|1.44|30|31|27
+8 Shri Karia Munda|Khunti(st)|2.04|3.02|44|44|69
+9 Shri Ravindra Kr. Ray|Kodarma|2.50|3.42|199|214|187
+10 Shri Sudarshan Bhagat|Lohardaga(st)|2.50|3.43|68|68|61
+11 Shri Vishnu Dayal Ram|Palamu(sc)|7.56|8.34|251|230|292
+12 Shri Vijay Kumar Hansdak|Rajmahal(st)|2.55|2.42|83|78|12
+13 Shri Ram Tahal Choudhary|Ranchi|0.00|3.36|96|96|91
+14 Shri Laxman Giluwa|Singhbhum(st)|12.60|7.40|123|129|124
+Member of Rajya Sabha
+1 Shri Mahesh Poddar|Ranchi|2.50|0.76|4|3|1
+2 Shri Mukhtar Abbas Naqvi|Ranchi|2.50|0.00|0|0|0
+3 Shri Parimal Nathwani|Ranchi|2.50|3.96|45|45|26
+4 Dr. Pradeep Kumar Balmuchu|E.singhbhum|2.55|3.44|57|63|40
+5 Shri Prem Chand Gupta|Ranchi|5.00|5.16|61|61|56
+6 Shri Sanjiv Kumar|Dhanbad|5.06|5.37|147|159|119
+STATE_TOTAL|Jharkhand|88.91|84.80|2414|2307|2508
+
+3.13 KERALA
+16th Lok Sabha
+1 Shri K. C. Venugopal|Alappuzha|7.26|5.57|78|64|65
+2 Shri P. K. Biju|Alathur(sc)|4.47|4.22|103|75|53
+3 Dr. A. Sampath|Attingal|7.70|5.59|112|60|63
+4 Shri Innocent|Chalakudy|5.15|4.93|77|41|33
+5 Prof. Kuruppasseray Varkey|Ernakulam|5.62|3.43|54|46|45
+6 Adv. Joice George|Idukki|5.16|3.99|434|94|68
+7 Smt. P. K. Sreemathi Teacher|Kannur|5.27|4.73|182|128|111
+8 Shri P. Karunakaran|Kasaragod|7.74|4.99|120|105|72
+9 Shri N. K. Premachandran|Kollam|5.03|4.08|124|46|48
+10 Shri Jose K. Mani|Kottayam|6.29|5.31|195|91|141
+11 Shri M. K. Raghavan|Kozhikode|5.29|5.51|120|108|165
+12 Shri P.K. Kunhalikkutty|Malappuram|7.75|5.72|178|145|149
+13 Shri Kodikunnil Suresh|Mavelikkara(sc)|5.05|4.07|164|63|62
+14 Shri M. B. Rajesh|Palakkad|6.82|5.93|22|19|26
+15 Shri Anto Antony|Pathanamthitta|8.48|4.28|151|91|109
+16 Shri E. T. Mohammed Basheer|Ponnani|5.36|3.71|97|52|108
+17 Dr. Shashi Tharoor|Thiruvananthapuram|5.17|6.02|18|58|121
+18 Shri C. N. Jayadevan|Thrissur|4.55|3.15|101|71|43
+19 Shri Mullappally Ramachandran|Vadakara|5.21|3.37|20|73|51
+20 Shri M. I. Shanavas|Wayanad|5.00|5.35|139|89|94
+Member of Rajya Sabha
+1 Shri A.K. Antony|Alappuzha|5.44|5.24|15|14|26
+2 Shri Abdul Wahab|Malappuram|3.20|2.13|162|133|34
+3 Shri C.P. Narayanan|Thiruvananthapuram|4.14|5.17|75|31|40
+4 Shri Joy Abraham|Kottayam|2.50|3.23|31|22|75
+5 Shri K Somaprasad|Kollam|2.50|0.00|66|1|0
+6 Shri K.K. Ragesh|Kannur|5.18|3.53|54|41|37
+7 Shri M.P Veerendra Kumar|Wayanad|2.52|0.05|24|13|0
+8 Prof. P.J. Kurian|Pathanamthitta|8.13|3.42|93|61|76
+9 Shri Vayalar Ravi|Alappuzha|6.64|4.55|62|70|64
+STATE_TOTAL|Kerala|177.32|147.86|3071|1913|2297
+
+3.14 MADHYA PRADESH
+16th Lok Sabha
+1 Shri Bodhsingh Bhagat|Balaghat|5.09|5.53|51|260|285
+2 Smt. Jyoti Dhurve|Betul(st)|2.65|3.34|209|196|117
+3 Dr. Bhagirath Prasad|Bhind(sc)|5.00|4.20|352|195|17
+4 Shri Alok Sanjar|Bhopal|0.00|0.00|0|0|0
+5 Shri Kamal Nath|Chhindwara|7.67|7.75|467|763|447
+6 Shri Prahalad Singh Patel|Damoh|5.05|4.51|101|89|190
+7 Shri Manohar Untwal|Dewas(sc)|5.04|8.78|263|205|127
+8 Smt. Savitri Thakur|Dhar(st)|7.62|5.81|155|94|67
+9 Shri Jyotiraditya M Scindia|Guna|5.11|5.41|185|175|162
+10 Shri Narendra Singh Tomar|Gwalior|5.08|4.48|51|51|39
+11 Shri Uday Pratap Singh|Hoshangabad|5.00|4.19|373|336|130
+12 Smt. Sumitra Mahajan|Indore|4.60|6.86|193|220|282
+13 Shri Rakesh Singh|Jabalpur|2.65|3.06|251|212|86
+14 Shri Nagendra Singh|Khajuraho|7.61|7.13|116|118|100
+15 Shri Nandkumar Singh Chouhan|Khandwa|5.11|4.46|86|180|153
+16 Shri Subhash Patel|Khargone(st)|5.11|4.53|122|120|36
+17 Shri Faggan Singh Kulaste|Mandla(st)|5.05|2.77|240|150|41
+18 Shri Sudhir Gupta|Mandsour|7.50|4.60|357|442|425
+19 Shri Anoop Mishra|Morena|5.06|4.41|233|115|50
+20 Shri Rodmal Nagar|Rajgarh|7.63|8.66|308|313|409
+21 Shri Kantilal Bhuria|Ratlam(st)|5.00|0.00|0|0|0
+22 Shri Janardan Mishra|Rewa|5.29|4.84|260|255|230
+23 Smt. Laxmi Narayan Yadav|Sagar|6.00|6.68|306|307|186
+24 Shri Ganesh Singh|Satna|8.01|4.72|140|189|169
+25 Shri Gyan Singh|Shahdol(st)|10.00|3.92|185|119|32
+26 Smt. Riti Pathak|Sidhi|7.63|6.57|505|308|265
+27 Dr. Virendra Kumar|Tikamgarh(sc)|5.21|3.82|171|176|71
+28 Prof. Chintamani Malviya|Ujjain(sc)|5.76|5.12|203|228|252
+29 Smt. Sushma Swaraj|Vidisha|5.08|4.13|429|382|393
+Member of Rajya Sabha
+1 Shri Digvijay Singh|Guna|7.54|5.66|85|178|135
+2 Shri LA. Ganesan|Bhopal|2.50|0.00|0|0|0
+3 Shri M.J. Akbar|Bhopal|2.54|0.52|19|18|0
+4 Shri Meghraj Jain|Aagar Malwa|5.18|3.88|59|62|36
+5 Shri Prabhat Jha|Gwalior|7.56|5.93|63|67|111
+6 Shri Prakash Javadekar|Chhindwara|0.10|0.47|7|18|42
+7 Shri Satyanarayan Jatiya|Ujjain|5.29|7.15|186|144|41
+8 Shri Satyavrat Chaturvedi|Chhatarpur|6.22|6.79|140|203|124
+9 Shri Thawar Chand|Ujjain|5.36|5.48|79|75|57
+10 Shri Vivek K. Tankha|Jabalpur|2.54|1.20|75|42|0
+STATE_TOTAL|Madhya Pradesh|232.30|198.91|7168|7156|5960
+
+3.16 MANIPUR
+16th Lok Sabha
+1 Dr. Thokchom Meinya|Inner Manipur|5.00|2.30|31|31|1
+2 Shri Thangso Baite|Outer Manipur(st)|5.06|5.17|79|67|73
+Member of Rajya Sabha
+STATE_TOTAL|Manipur|15.06|10.11|140|125|82
+
+3.17 MEGHALAYA
+16th Lok Sabha
+1 Shri Vincent H. Pala|Shillong|2.58|1.24|26|10|16
+2 Shri Conrad Kongkal Sangma|Tura|2.56|2.81|279|233|126
+Member of Rajya Sabha
+1 Smt Wansuk Syiem|East Khasi Hills|2.52|1.72|11|17|22
+STATE_TOTAL|Meghalaya|7.84|6.18|316|260|220
+
+3.18 MIZORAM
+16th Lok Sabha
+1 Shri C. L. Ruala|Mizoram(st)|5.00|5.12|73|73|34
+Member of Rajya Sabha
+1 Shri Ronald Sapa Tlau|Aizawl|7.63|4.16|102|111|61
+STATE_TOTAL|Mizoram|12.63|9.28|175|184|95
+
+3.19 NAGALAND
+16th Lok Sabha
+1 Shri Neiphiu Rio|Nagaland|5.05|5.97|26|26|27
+Member of Rajya Sabha
+STATE_TOTAL|Nagaland|7.57|8.52|45|45|27
+
+3.20 ODISHA
+16th Lok Sabha
+1 Shri Ladu Kishore Swain|Aska|2.50|1.72|277|296|106
+2 Shri Rabindra Kumar Jena|Balasore|5.01|1.74|150|159|83
+3 Dr. Prabhas Kumar Singh|Bargarh|5.22|6.22|254|216|298
+4 Shri Sidhant Mohapatra|Berhampur|2.50|2.20|237|301|99
+5 Shri Arjun Charan Sethi|Bhadrak(sc)|7.52|4.30|177|131|88
+6 Dr. Prasanna Kumar Patasani|Bhubaneswar|5.61|2.55|424|80|59
+7 Shri Kalikesh Narayan Singh Deo|Bolangir|5.00|5.92|267|296|223
+8 Shri Bhartruhari Mahatab|Cuttack|5.25|7.24|581|424|455
+9 Shri Tathagata Satpathy|Dhenkanal|2.50|3.69|77|92|95
+10 Dr. Kulamani Samal|Jagatsinghpur(sc)|6.87|6.55|382|338|333
+11 Smt. Rita Tarai|Jajpur(sc)|5.00|1.93|44|63|33
+12 Smt. Arka Keshari Deo|Kalahandi|5.16|4.62|144|139|143
+13 Smt. Pratyusha Rajeshwari Singh|Kandhamal|2.59|4.81|316|214|250
+14 Shri Baijayant Panda|Kendrapara|5.08|6.38|12|78|103
+15 Smt. Sakuntala Laguri|Keonjhar(st)|7.61|8.30|200|290|177
+16 Shri Jhina Hikaka|Koraput(st)|5.05|1.73|142|56|36
+17 Shri Rama Chandra Hansdah|Mayurbhanj(st)|10.15|8.76|158|182|165
+18 Shri Balabhadra Majhi|Nabarangpur(st)|7.57|5.71|465|536|171
+19 Shri Pinaki Misra|Puri|5.12|3.81|338|303|263
+20 Shri Nagendra Kumar Pradhan|Sambalpur|2.63|3.09|398|116|151
+21 Shri Jual Oram|Sundargarh(st)|7.60|5.27|299|219|179
+Member of Rajya Sabha
+1 Shri A. U. Singh Deo|Bolangir|5.36|4.62|266|255|82
+2 Shri A.V. Swamy|Nuapara|5.05|6.63|199|142|80
+3 Shri Anubhav Mohanty|Cuttack|5.11|3.70|218|108|78
+4 Shri Bhaskar Rao Nekkanti|Rayagada|2.50|0.00|0|0|0
+5 Shri Dilip Kumar Tirkey|Sundargarh|7.60|6.23|152|186|105
+6 Shri Narendra Kumar Swain|Cuttack|2.63|0.77|140|128|4
+7 Shri Prasanna Acharya|Baragarh|2.50|2.25|239|159|145
+8 Shri Ranjib Biswal|Jagatsinghpur|5.25|4.22|331|300|278
+9 Shmt Sarojini Hembram|Mayurbhanj|5.07|4.46|138|138|81
+STATE_TOTAL|Odisha|166.30|150.94|7510|6418|5580
+
+3.21 PUNJAB
+16th Lok Sabha
+1 Shri Gurjeet Singh|Amritsar|5.12|5.25|390|268|22
+2 Shri Prem Singh Chandumajra|Anandpur Sahib|7.59|5.01|209|228|115
+3 Smt Harsimrat Kaur Badal|Bhatinda|5.05|6.44|431|423|259
+4 Prof. Sadhu Singh|Faridkot(sc)|7.71|6.73|349|352|164
+5 Shri Harinder Singh Khalsa|Fatehgarh Sahib(sc)|5.35|8.39|297|321|283
+6 Shri Sher Singh Ghubaya|Firozpur|5.08|5.46|144|152|318
+7 Shri Vinod Khanna|Gurdaspur|2.59|4.63|93|109|65
+8 Shri Vijay Sampla|Hoshiarpur(sc)|5.16|6.58|396|369|167
+9 Shri Santokh Singh Chaudhary|Jalandhar(sc)|5.15|4.58|345|201|96
+10 Shri Ranjit Singh Brahmpura|Khadoor Sahib|6.29|7.07|237|237|143
+11 Shri Ravneet Singh Bittu|Ludhiana|7.56|5.14|304|164|48
+12 Dr. Dharam Vira Gandhi|Patiala|5.50|6.27|600|670|369
+13 Shri Bhagwant Mann|Sangrur|5.20|5.69|813|601|194
+Member of Rajya Sabha
+1 Shri Partap Singh Bajwa|Gurdaspur|5.02|1.26|317|288|0
+2 Shri Shamsher Singh Dullo|Fatehgarh Sahib|5.02|0.20|161|145|0
+3 Shri Shwait Malik|Amritsar|2.50|1.56|34|32|1
+4 Shri Sukhdev Singh Dhindsa|Sangrur|5.13|3.99|100|85|81
+STATE_TOTAL|Punjab|111.73|108.82|6365|5426|3497
+
+3.22 RAJASTHAN
+16th Lok Sabha
+1 Prof. Sanwar Lal Jat|Ajmer|5.04|4.85|40|78|92
+2 Shri Chand Nath|Alwar|0.00|0.26|7|7|0
+3 Shri Manshankar Ninama|Banswara(st)|5.00|2.82|198|196|18
+4 Col. Sona Ram|Barmer|5.00|3.07|184|167|83
+5 Shri Bahadur Singh|Bharatpur(sc)|7.82|5.30|78|67|122
+6 Shri Subhash Baheria|Bhilwara|5.17|2.98|177|112|57
+7 Shri Arjun Ram Meghwal|Bikaner(sc)|5.00|4.80|70|77|72
+8 Shri Chandra Prakash Joshi|Chittorgarh|5.08|4.05|101|121|32
+9 Shri Rahul Kaswan|Churu|5.00|2.57|101|62|2
+10 Shri Harish Chandra Meena|Dausa(st)|5.11|5.05|114|114|46
+11 Shri Nihalchand|Ganganagar(sc)|5.26|9.65|186|141|131
+12 Shri Ramcharan Bohara|Jaipur|2.53|4.66|99|99|11
+13 Col. Rajyavadhan Singh Rathore|Jaipur Rural|2.58|2.12|32|32|14
+14 Shri Devji Patel|Jalore|5.14|3.76|69|54|14
+15 Shri Dushyant Singh|Jhalawar-baran|2.50|2.93|7|56|66
+16 Smt. Santosh Ahlawat|Jhunjhunu|5.00|2.88|68|57|79
+17 Shri Gajendrasingh Shekhawat|Jodhpur|5.00|2.76|82|63|3
+18 Dr. Manoj Rajoria|Karauli-dholpur(sc)|5.18|3.83|16|22|5
+19 Shri Om Birla|Kota|5.18|6.69|203|163|77
+20 Shri C. R. Choudhary|Nagaur|2.50|0.00|0|0|0
+21 Shri P. P. Choudhary|Pali|7.50|7.71|141|202|4
+22 Shri Hariom Singh Rathore|Rajsamand|2.50|3.57|141|102|30
+23 Shri Sumedhanand Saraswati|Sikar|5.37|4.04|69|69|30
+24 Shri Sukhbir Singh Jaunapuria|Tonk-sawai Madhopur|7.88|3.14|244|239|170
+25 Shri Arjunlal Meena|Udaipur(st)|5.19|5.37|133|81|58
+Member of Rajya Sabha
+1 Shri Abhishek Manu Singhvi|Jodhpur|5.23|4.79|38|30|14
+2 Shri Bhupender Yadav|Ajmer|7.59|6.03|72|51|7
+3 Shri Harshvardhan Singh|Dungarpur|2.50|0.00|0|0|0
+4 Shri Narayan Lal Panchariya|Jodhpur|5.03|3.78|28|36|16
+5 Shri Narendra Budania|Churu|5.00|3.85|36|33|1
+6 Shri Om Prakash Mathur|Jaipur|2.50|0.00|0|0|0
+7 Shri Ram Kumar Verma|Dausa|2.50|1.95|11|11|1
+8 Shri Ram Narain Dudi|Jodhpur|7.60|5.66|48|79|46
+9 Shri Vijay Goel|Jaipur|5.06|4.64|24|24|13
+STATE_TOTAL|Rajasthan|180.90|152.42|2963|2772|1777
+
+3.23 SIKKIM
+16th Lok Sabha
+1 Shri Prem Das Rai|Sikkim|6.08|6.49|45|37|16
+Member of Rajya Sabha
+1 Shri Hishey Lachungpa|East District|5.02|2.73|2|6|7
+STATE_TOTAL|Sikkim|11.10|9.22|47|43|23
+
+3.25 TELANGANA
+16th Lok Sabha
+1 Shri Godam Nagesh|Adilabad(st)|3.41|1.57|156|156|51
+2 Dr. Boora Narsaiah Goud|Bhongir|2.68|1.61|195|98|47
+3 Shri Konda Vishweshwar Reddy|Chelvella|0.05|1.51|90|88|37
+4 Shri Asaduddin Owaisi|Hyderabad|7.58|3.47|77|34|13
+5 Shri Vinod Kumar Boinapally|Karimnagar|2.58|3.57|180|180|150
+6 Shri Ponguleti Srinivasa Reddy|Khammam|5.72|5.47|394|393|309
+7 Prof. Azmeera Seetaram Naik|Mahabubabad(st)|4.41|5.41|201|142|148
+8 Shri AP Jithender Reddy|Mahabubnagar|6.43|5.23|289|289|370
+9 Shri Ch. Malla Reddy|Malkajgiri|6.36|4.64|95|69|31
+10 Shri Kotha Prabhakar Reddy|Medak|5.50|1.36|90|90|144
+11 Shri Yellaiah Nandi|Nagarkurnool(sc)|8.45|10.99|503|503|517
+12 Shri Gutha Sukhender Reddy|Nalgonda|5.75|5.52|176|166|191
+13 Smt. Kalvakuntla Kavitha|Nizamabad|7.74|5.24|287|259|250
+14 Shri Balka Suman|Peddapalle(sc)|2.58|4.36|203|204|156
+15 Shri Bandaru Dattatreya|Secunderabad|6.45|6.17|41|58|42
+16 Shri Dayakar Pasunoori|Warangal(sc)|3.94|8.98|355|355|256
+17 Shri B. B. Patil|Zahirabad|3.04|2.02|187|187|31
+Member of Rajya Sabha
+1 Shri Ananda Bhaskar Rapolu|Warangal|3.02|4.17|111|111|132
+2 Shri C.M. Ramesh|Kadapa|0.00|3.47|106|76|33
+3 Shri Dharmapuri Srinivas|Nizamabad|2.50|0.25|112|69|0
+4 Shri Garikapati Mohan Rao|Warangal|5.31|6.17|111|111|161
+5 Dr K.V.P. Ramachandra Rao|Hyderabad|2.52|3.65|62|23|55
+6 Shri Lakshmikanta Rao Voditela|Karimnagar|2.50|0.00|0|0|0
+7 Shri Palvai Govardhan Reddy|Nalgonda|5.13|4.69|150|139|129
+STATE_TOTAL|Telangana|113.02|125.84|4272|3911|3913
+
+3.26 TRIPURA
+16th Lok Sabha
+1 Shri Jitendra Choudhury|Tripura East(st)|0.00|0.00|0|0|0
+2 Shri Sankar Prasad Datta|Tripura West|5.08|5.60|48|48|52
+Member of Rajya Sabha
+1 Smt. Jharna Das Baidya|West Tripura|5.04|6.84|73|73|84
+STATE_TOTAL|Tripura|10.12|12.44|121|121|136
+
+3.28 UTTARAKHAND
+16th Lok Sabha
+1 Shri Ajay Tamta|Almora(sc)|2.57|2.26|399|397|122
+2 Shri Maj Gen Bhuwan Chandra Khanduri|Garhwal|2.58|1.82|144|144|98
+3 Dr. Ramesh Pokhriyal Nishank|Hardwar|5.07|3.95|104|140|126
+4 Shri Bhagat Singh Koshyari|Nainital Udham Singh Nagar|5.07|4.54|158|143|213
+5 Smt. Mala Rajya Laxmi Shah|Tehri Garhwal|2.66|2.51|181|180|163
+Member of Rajya Sabha
+1 Shri Mahendra Singh Mahra|Pithoragarh|5.00|2.02|75|78|100
+2 Shri Pradeep Tamta|Bageshwar|2.50|0.00|0|0|0
+3 Shri Raj Babbar|Dehradun|5.06|5.43|167|167|42
+STATE_TOTAL|Uttarakhand|35.73|27.46|1450|1279|1012
