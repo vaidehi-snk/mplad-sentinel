@@ -1,5 +1,4 @@
 import React, { createContext, useContext, useState, useMemo, useEffect } from "react";
-import { works as staticWorks } from "../data";
 import { api } from "../api/client";
 
 const RoleContext = createContext(null);
@@ -19,7 +18,7 @@ const ROLES = [
 export function RoleProvider({ children, initialRole = "mp", initialJurisdiction = null }) {
   const [role, setRole] = useState(initialRole);
   const [jurisdiction, setJurisdiction] = useState(initialJurisdiction);
-  const [allWorks, setAllWorks] = useState(staticWorks);
+  const [allWorks, setAllWorks] = useState([]);
   const [source, setSource] = useState("static");
   const [realData, setRealData] = useState(false);
   const [isSmallSample, setIsSmallSample] = useState(false);
@@ -29,10 +28,10 @@ export function RoleProvider({ children, initialRole = "mp", initialJurisdiction
     let cancelled = false;
     api.getWorks().then((data) => {
       if (cancelled) return;
-      if (data && data.length) {
+      if (Array.isArray(data)) {
         setAllWorks(data);
         setSource("api");
-      }
+      } else { setAllWorks([]); setSource("unavailable"); }
     });
     api.getStatus().then((data) => {
       if (cancelled) return;

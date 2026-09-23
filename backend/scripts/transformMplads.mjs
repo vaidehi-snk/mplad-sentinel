@@ -68,7 +68,7 @@ const works = rows.map((r, i) => {
     contractor: r.implementing_agency_name,
     mp: r.mp_name,
     sanctioned: r.sanction_amount,
-    utilized: r.sanction_amount,
+    utilized: null,
     score: result.score,
     level: result.level,
     reasons: result.reasons,
@@ -85,7 +85,7 @@ const ledger = works.map((w, i) => {
   const hash = crypto.createHash("sha256").update(payload).digest("hex");
   const entry = {
     id: i + 1,
-    action: "FUND_RELEASED",
+    action: "RECORD_IMPORTED",
     work: w.id,
     actor: "MPLADS Data Ingestion",
     hash,

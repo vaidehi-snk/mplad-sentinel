@@ -38,24 +38,24 @@ export default function TopBar() {
       <div>
         <div className="serif-font topbar-title">{scopeLabel}</div>
         <div className="topbar-sub">
-          <MapPin size={12} /> MPLAD Fund Utilization, FY 2026&ndash;27
+          <MapPin size={12} /> MPLADS review workspace · historical / imported records
           <span className={"data-badge " + (realData ? "data-badge-real" : "data-badge-demo")}>
-            {realData ? "Real MPLADS data" : "Demo data"}
+            Sample / user-supplied data
           </span>
           <span className={"data-badge " + (source === "api" ? "data-badge-real" : "data-badge-demo")}>
-            {source === "api" ? "Live API" : "Static fallback"}
+            {source === "api" ? "Local API connected" : "API unavailable / loading"}
           </span>
         </div>
       </div>
 
       <div className="topbar-right">
         <div className="role-toggle">
-          {roles.map((r) => (
+          {roles.filter(r => r.id === role).map((r) => (
             <button
               key={r.id}
               onClick={() => setRole(r.id)}
               className={role === r.id ? "role-btn active" : "role-btn"}
-              title="Switch view (demo convenience \u2014 a real deployment would lock this to your login)"
+              title="Current demo role; sign out to choose another jurisdiction"
             >
               {r.label}
             </button>

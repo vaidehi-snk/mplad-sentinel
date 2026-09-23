@@ -4,7 +4,7 @@ import { api } from "../api/client";
 import { useRole } from "../context/RoleContext";
 
 export default function Ingest() {
-  const { refreshData } = useRole();
+  const { refreshData, role } = useRole();
   const [file, setFile] = useState(null);
   const [uploading, setUploading] = useState(false);
   const [result, setResult] = useState(null);
@@ -24,14 +24,14 @@ export default function Ingest() {
     <div>
       <div className="panel ingest-panel">
         <UploadCloud size={36} color="#C9A227" />
-        <div className="serif-font ingest-title">Load a real MPLADS export</div>
+        <div className="serif-font ingest-title">Import work records</div>
         <div className="ingest-copy">
           Upload the CSV downloaded from data.gov.in / dataful.in (same column schema:
           state, constituency, mp_name, sanction_amount, implementing_agency_name,
           work_name, unique_work_number, work_status, date_of_administrative_approval).
-          This replaces the current dataset and re-scores every row live &mdash; cost
-          anomalies, same-day batch approvals, possible duplicate works, and long-pending
-          flags are all recomputed on upload.
+          Imports update matching work IDs and retain the audit trail. Sanction amounts
+          are not treated as expenditure. Maximum 10 MB / 10,000 rows. Ministry demo role required.
+          Uploaded records are user supplied; their provenance is not independently verified.
         </div>
         <input
           ref={inputRef}
@@ -40,7 +40,7 @@ export default function Ingest() {
           onChange={(e) => setFile(e.target.files?.[0] || null)}
           className="ingest-file-input"
         />
-        <button className="gold-btn" onClick={handleUpload} disabled={!file || uploading}>
+        <button className="gold-btn" onClick={handleUpload} disabled={!file || uploading || role !== "ministry"}>
           {uploading ? "Scoring records..." : "Upload & score"}
         </button>
       </div>

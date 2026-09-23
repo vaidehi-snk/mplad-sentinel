@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { QrCode, CheckCircle2, AlertTriangle } from "lucide-react";
-import { citizenReports as staticReports } from "../data";
 import { useRole } from "../context/RoleContext";
 import { api } from "../api/client";
 
 export default function Citizen() {
   const { allWorks } = useRole();
-  const [reports, setReports] = useState(staticReports);
+  const [reports, setReports] = useState([]);
   const [live, setLive] = useState(false);
   const [workId, setWorkId] = useState("");
   const [note, setNote] = useState("");
@@ -41,7 +40,7 @@ export default function Citizen() {
       <div className="citizen-layout">
         <div className="panel qr-panel">
           <QrCode size={90} color="#E8EAF0" />
-          <div className="qr-caption">Site QR code &mdash; scan to confirm a work's completion status</div>
+          <div className="qr-caption">QR illustration only. Report observations below; independent verification is required.</div>
         </div>
         <div className="citizen-list">
           <div className="panel-label">

@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { ChevronRight, X, Camera, CheckCircle2 } from "lucide-react";
+import CaseReview from "./CaseReview";
 import { ScoreRing } from "./Kpi";
-import { fmt, levelColor, ledger as staticLedger } from "../data";
+import { fmt, levelColor } from "../data";
 import { api } from "../api/client";
 
 export function RiskAlertCard({ w, onOpen }) {
@@ -15,8 +16,8 @@ export function RiskAlertCard({ w, onOpen }) {
         </div>
       </div>
       <div className="alert-amount">
-        <div className="mono-font alert-amount-value">{fmt(w.utilized)}</div>
-        <div className="alert-updated">{w.lastUpdated}</div>
+        <div className="mono-font alert-amount-value">{fmt(w.sanctioned)}</div>
+        <div className="alert-updated">Sanction · {w.lastUpdated}</div>
       </div>
       <ChevronRight size={16} color="#6B7386" />
     </button>
@@ -24,7 +25,7 @@ export function RiskAlertCard({ w, onOpen }) {
 }
 
 export function DetailPanel({ w, onClose }) {
-  const [wLedger, setWLedger] = useState(staticLedger.filter((l) => l.work === w?.id));
+  const [wLedger, setWLedger] = useState([]);
   const [requesting, setRequesting] = useState(false);
   const [requested, setRequested] = useState(false);
 
@@ -55,7 +56,7 @@ export function DetailPanel({ w, onClose }) {
           <div className="detail-id">{w.id}</div>
           <div className="serif-font detail-title">{w.name}</div>
         </div>
-        <button onClick={onClose} className="icon-btn">
+        <button onClick={onClose} className="icon-btn" aria-label="Close work details">
           <X size={18} color="#8B93A7" />
         </button>
       </div>
@@ -63,7 +64,7 @@ export function DetailPanel({ w, onClose }) {
       <div className="detail-score-row">
         <ScoreRing score={w.score} level={w.level} />
         <div className="detail-level">
-          Risk level:{" "}
+          Review priority:{" "}
           <span style={{ color: levelColor(w.level), textTransform: "capitalize" }}>{w.level}</span>
         </div>
       </div>
@@ -91,10 +92,12 @@ export function DetailPanel({ w, onClose }) {
         {wLedger.length === 0 && <div className="ledger-empty">No entries yet.</div>}
         {wLedger.map((l, i) => (
           <div key={l.seq || l.id || i} className="mono-font ledger-mini-row">
-            {l.action} <span className="dim">&mdash; {(l.hash || "").slice(0, 6)}...{(l.hash || "").slice(-4)}</span>
+            {l.action.startsWith('REVIEW:') ? `Review: ${l.action.split(':')[1].replaceAll('_', ' ')}` : l.action} <span className="dim">&mdash; {(l.hash || "").slice(0, 6)}...{(l.hash || "").slice(-4)}</span>
           </div>
         ))}
       </div>
+
+      <CaseReview key={w.id} work={w} />
 
       {requested ? (
         <div className="verify-banner detail-cta">

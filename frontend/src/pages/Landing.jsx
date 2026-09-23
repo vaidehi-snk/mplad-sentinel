@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { Shield, AlertTriangle, Lock, TrendingUp, Users, ArrowRight } from "lucide-react";
 
 const FEATURES = [
-  { icon: AlertTriangle, title: "Risk-based alerts", copy: "Every work is scored against real cost, batch-approval, duplicate, and delay signals \u2014 with a plain-language reason, not just a number." },
-  { icon: Lock, title: "Tamper-evident ledger", copy: "Every fund release and flag is hash-chained. Anyone can verify the chain hasn't been altered." },
+  { icon: AlertTriangle, title: "Risk-based alerts", copy: "Review sanction comparisons, approval batches and matching descriptions, with explicit limits on what the available evidence establishes." },
+  { icon: Lock, title: "Tamper-evident ledger", copy: "Review decisions create linked event hashes. Verify local chain consistency and export the supporting case snapshot." },
   { icon: TrendingUp, title: "Trend & forecast", copy: "Real month-by-month sanctioned-fund trends, with a transparent linear projection \u2014 no black-box claims." },
   { icon: Users, title: "Four jurisdiction views", copy: "MP, District Authority, State Nodal, and Ministry each see a dashboard scoped and shaped for their level." },
 ];
@@ -26,12 +26,12 @@ export default function Landing() {
       <div className="landing-hero">
         <div className="landing-eyebrow">MPLADS Fund Monitoring &middot; SIH 2026</div>
         <h1 className="serif-font landing-title">
-          See where MPLAD funds actually go &mdash; before it becomes a problem.
+          Know which MPLADS works need a closer look.
         </h1>
         <p className="landing-sub">
-          Sentinel analyzes sanctions, expenditure, and work execution data to surface cost
-          anomalies, duplicate works, and irregular approval patterns \u2014 with an explanation
-          for every flag, and a tamper-evident record of every action.
+          Review work records, inspect unusual patterns, and record the evidence behind
+          each decision. Missing payment and completion data stays visible as a gap
+          to investigate. A review score is not a finding of fraud.
         </p>
         <div className="landing-cta-row">
           <button className="gold-btn landing-cta-primary" onClick={() => navigate("/login")}>
@@ -52,8 +52,8 @@ export default function Landing() {
       </div>
 
       <div className="landing-footer">
-        Built against real MPLADS records (data.gov.in / MoSPI). Some capabilities are marked as
-        concept demos where public data doesn't yet exist \u2014 shown honestly, not hidden.
+        Local prototype using a bundled historical sample or user imports. Data provenance
+        requires verification. Photo and cross-scheme checks are labelled concept demonstrations.
       </div>
     </div>
   );

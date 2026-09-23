@@ -12,7 +12,7 @@ import {
 } from "recharts";
 import { KpiCard } from "../components/Kpi";
 import { useRole } from "../context/RoleContext";
-import { utilizationTrend, fmt } from "../data";
+import { fmt } from "../data";
 import { api } from "../api/client";
 
 function groupBy(works, keyFn) {
@@ -58,7 +58,8 @@ function BreakdownTable({ title, rows, keyLabel }) {
 export default function Overview() {
   const { scopedWorks, role } = useRole();
   const totalSanctioned = scopedWorks.reduce((s, w) => s + w.sanctioned, 0);
-  const totalUtilized = scopedWorks.reduce((s, w) => s + w.utilized, 0);
+  const paymentsKnown = scopedWorks.length > 0 && scopedWorks.every(w => w.utilized !== null && w.utilized !== undefined);
+  const totalUtilized = scopedWorks.reduce((s, w) => s + (w.utilized || 0), 0);
   const highRisk = scopedWorks.filter((w) => w.level === "high").length;
 
   const [trend, setTrend] = useState(null);
@@ -75,7 +76,7 @@ export default function Overview() {
         ...trend.forecast.map((f) => ({ label: f.label, forecastSanctioned: f.sanctioned })),
       ];
     }
-    return utilizationTrend.map((p) => ({ label: p.month, sanctioned: p.utilized }));
+    return [];
   }, [trend]);
 
   const breakdown = useMemo(() => {
@@ -91,8 +92,8 @@ export default function Overview() {
         <KpiCard label="Sanctioned" value={fmt(totalSanctioned)} icon={Building2} />
         <KpiCard
           label="Utilized"
-          value={fmt(totalUtilized)}
-          sub={totalSanctioned ? Math.round((totalUtilized / totalSanctioned) * 100) + "% of sanctioned" : ""}
+          value={paymentsKnown ? fmt(totalUtilized) : "Unavailable"}
+          sub={paymentsKnown ? "Reported vendor payments" : "Payment records not included"}
           icon={ArrowUpRight}
           accent="#2F9E6E"
         />
@@ -108,7 +109,7 @@ export default function Overview() {
 
       <div className="panel chart-panel">
         <div className="panel-label">
-          Sanctioned funds by month {trend ? "\u2014 real data, dashed = linear projection" : "\u2014 illustrative"}
+          Sanctioned funds by month {trend ? "\u2014 real data, dashed = linear projection" : "\u2014 awaiting records"}
         </div>
         <ResponsiveContainer width="100%" height={200}>
           <ComposedChart data={chartData}>

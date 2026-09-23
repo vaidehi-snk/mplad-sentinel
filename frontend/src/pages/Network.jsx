@@ -1,5 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
-import { networkNodes as staticNodes, networkEdges as staticEdges } from "../data";
+import React, { useEffect, useState } from "react";
 import { api } from "../api/client";
 
 const WIDTH = 640;
@@ -28,8 +27,8 @@ export default function Network() {
   const [active, setActive] = useState(null);
   const [live, setLive] = useState(false);
   const [graph, setGraph] = useState(() => ({
-    nodes: staticNodes,
-    edges: staticEdges,
+    nodes: [],
+    edges: [],
   }));
 
   useEffect(() => {
@@ -47,9 +46,10 @@ export default function Network() {
   return (
     <div className="panel network-panel">
       <div className="panel-label">
-        Contractors and works {live ? "\u2014 real, derived from ingested data" : "\u2014 illustrative demo data"}
+        Implementing agencies and works {live ? "\u2014 real, derived from ingested data" : "\u2014 illustrative demo data"}
         {live && " (accounts/bank-level clustering isn't in this dataset, so that layer is still a roadmap item)"}
       </div>
+      <p className="dim">Shared agency assignments do not establish vendor collusion. Vendor and tender records are needed for that analysis.</p>
       <svg viewBox={`0 0 ${WIDTH} ${HEIGHT}`} width="100%" height="360">
         {graph.edges.map(([a, b], i) => {
           const A = find(a), B = find(b);

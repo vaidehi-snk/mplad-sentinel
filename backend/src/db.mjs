@@ -6,11 +6,15 @@ import { works as fallbackWorks } from "../data/mockData.js";
 import { realWorks } from "../data/realWorks.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const DB_PATH = path.join(__dirname, "..", "sentinel.db");
+const DB_PATH = process.env.SENTINEL_DB_PATH || path.join(__dirname, "..", "sentinel-review.db");
 
 export const db = new DatabaseSync(DB_PATH);
 
 db.exec(`
+  CREATE TABLE IF NOT EXISTS reviews (
+    id INTEGER PRIMARY KEY AUTOINCREMENT, work TEXT NOT NULL, decision TEXT NOT NULL,
+    note TEXT NOT NULL, actor TEXT NOT NULL, createdAt TEXT NOT NULL
+  );
   CREATE TABLE IF NOT EXISTS works (
     id TEXT PRIMARY KEY,
     name TEXT,
@@ -97,7 +101,7 @@ export function upsertWork(w) {
     mp: w.mp || "Unknown MP",
     contractor: w.contractor,
     sanctioned: w.sanctioned,
-    utilized: w.utilized,
+    utilized: null,
     score: w.score,
     level: w.level,
     reasons: JSON.stringify(w.reasons),
@@ -129,7 +133,7 @@ function seedIfEmpty() {
   try {
     for (const w of source) {
       upsertWork(w);
-      appendLedgerEntry("FUND_RELEASED", w.id, "Data Ingestion");
+      appendLedgerEntry("RECORD_IMPORTED", w.id, "Bundled historical sample; source provenance unverified");
       if (w.level === "high" || w.level === "medium") {
         appendLedgerEntry("RISK_FLAGGED", w.id, "Sentinel Engine");
       }

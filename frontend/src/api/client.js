@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:4000";
+const API_BASE = import.meta.env.VITE_API_URL || "http://127.0.0.1:4000";
 const SESSION_KEY = "sentinel_session";
 
 // Plain module, not a React hook, so it reads the token straight from
@@ -17,17 +17,22 @@ function getToken() {
 async function safeFetch(path, options = {}) {
   try {
     const token = getToken();
-    const headers = { ...(options.headers || {}) };
+    const headers = { ...options.headers };
     if (token) headers["Authorization"] = "Bearer " + token;
-    const res = await fetch(API_BASE + path, { ...options, headers });
+    const res = await fetch(API_BASE + path, { ...options, headers, signal: AbortSignal.timeout(20000) });
     if (!res.ok) throw new Error("Request failed: " + res.status);
     return await res.json();
-  } catch (err) {
+  } catch {
     return null; // caller decides how to fall back
   }
 }
 
 export const api = {
+  getEvidence: (id) => safeFetch(`/api/works/${encodeURIComponent(id)}/evidence`),
+  saveReview: (id, decision, note) => safeFetch(`/api/works/${encodeURIComponent(id)}/reviews`, {
+    method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ decision, note }),
+  }),
+  getReviews: () => safeFetch("/api/reviews"),
   getStatus: () => safeFetch("/api/status"),
   getJurisdictions: () => safeFetch("/api/jurisdictions"),
   getMpPerformance: (params = {}) => {
@@ -66,7 +71,7 @@ export const api = {
       const data = await res.json();
       if (!res.ok) return { ok: false, error: data.error || "Upload failed" };
       return data;
-    } catch (err) {
+    } catch {
       return { ok: false, error: "Could not reach the backend API. Is it running?" };
     }
   },

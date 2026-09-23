@@ -16,7 +16,7 @@ export default function Sidebar() {
     { to: "/app/ledger", label: "Ledger", icon: FileText },
     { to: "/app/network", label: "Network", icon: Link2 },
     { to: "/app/citizen", label: "Citizen Check", icon: Users },
-    { to: "/app/ghost-check", label: "Ghost-Work Check", icon: ScanSearch },
+    { to: "/app/ghost-check", label: "Photo concept (mock)", icon: ScanSearch },
     { to: "/app/ingest", label: "Data Ingestion", icon: UploadCloud },
   ];
 
@@ -47,7 +47,7 @@ export default function Sidebar() {
       {isOversight && (
         <>
           <div className="sidebar-section-label sidebar-section-label-alt">
-            National dataset (free, separate)
+            Historical data (2016–17)
             <span className="sidebar-section-count">732 MPs</span>
           </div>
           <NavLink to="/app/national" className={({ isActive }) => "navitem" + (isActive ? " active" : "")}>

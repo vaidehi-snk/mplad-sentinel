@@ -1,0 +1,99 @@
+/* ===== Atlas — the night map ===== */
+.app-dark { --card: #12291f; }
+.atlas-stage { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) 420px; gap: 0; height: calc(100vh - 72px); margin-top: -60px; padding-top: 60px; color: var(--night-ink); }
+.atlas-stage .loading { color: var(--night-muted); grid-column: 1 / -1; }
+.atlas-canvas { position: relative; overflow: hidden; background:
+  radial-gradient(900px 600px at 40% 45%, rgba(47, 110, 80, 0.22), transparent 70%),
+  radial-gradient(600px 400px at 80% 90%, rgba(201, 162, 77, 0.08), transparent 70%), var(--night); }
+.atlas-canvas::before { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: 0.5;
+  background-image: radial-gradient(rgba(143, 168, 155, 0.16) 1px, transparent 1.2px); background-size: 22px 22px; }
+.atlas-canvas::after { content: ""; position: absolute; inset: 0; pointer-events: none; background-image: var(--grain); opacity: 0.5; mix-blend-mode: overlay; }
+.atlas-canvas .atlas-map { position: absolute; inset: 70px 20px 40px; width: auto; height: auto; }
+.atlas-top { position: absolute; top: 16px; left: 20px; right: 20px; display: flex; justify-content: space-between; align-items: center; gap: 12px; z-index: 3; flex-wrap: wrap; }
+.crumbs-v2 { display: flex; align-items: center; gap: 4px; padding: 5px 12px 5px 5px; border-radius: 14px; background: rgba(16, 41, 31, 0.8); border: 1px solid rgba(255, 255, 255, 0.08); backdrop-filter: blur(10px); font-size: 13px; }
+.crumbs-v2 span { color: var(--night-muted); padding: 4px 6px; }
+.crumbs-v2 span + span::before { content: "›"; margin-right: 10px; color: #3f5d50; }
+.crumbs-v2 span.on { color: #fff; font-weight: 600; }
+.crumb-back { width: 30px; height: 30px; border-radius: 9px; border: 0; display: grid; place-items: center; background: rgba(255, 255, 255, 0.08); color: #fff; }
+.crumb-back:hover { background: rgba(255, 255, 255, 0.16); }
+.lenses { display: flex; gap: 2px; padding: 4px; border-radius: 14px; background: rgba(16, 41, 31, 0.8); border: 1px solid rgba(255, 255, 255, 0.08); backdrop-filter: blur(10px); }
+.lens { position: relative; display: flex; align-items: center; gap: 7px; padding: 7px 12px; border: 0; border-radius: 10px; background: none; color: var(--night-muted); font-size: 13px; font-weight: 500; z-index: 0; }
+.lens:hover { color: #fff; }
+.lens.on { color: #1d1606; }
+.lens svg { --icon-accent: currentColor; }
+.lens.on svg { --icon-accent: #14452f; }
+.lens-pill { position: absolute; inset: 0; border-radius: 10px; background: linear-gradient(180deg, #e8c66e, #c29a3e); z-index: -1; box-shadow: 0 6px 16px -6px rgba(226, 194, 112, 0.8); }
+.atlas-legend { position: absolute; left: 20px; bottom: 14px; display: flex; flex-wrap: wrap; gap: 14px; align-items: center; font-size: 12px; color: var(--night-ink); z-index: 3; }
+.atlas-legend .muted { color: var(--night-muted); }
+.atlas-legend .lg { display: inline-flex; align-items: center; gap: 6px; }
+.atlas-legend i { width: 9px; height: 9px; border-radius: 50%; box-shadow: 0 0 8px currentColor; }
+
+.atlas-panel { position: relative; overflow-y: auto; padding: 22px 24px 40px; background: linear-gradient(180deg, #10291f, #0c2219); border-left: 1px solid rgba(255, 255, 255, 0.06); }
+.panel-eyebrow { display: flex; align-items: center; gap: 8px; font: 600 11px/1 var(--sans); letter-spacing: 0.14em; text-transform: uppercase; color: #e2c270; --icon-accent: #e2c270; }
+.panel-big { margin: 14px 0 18px; }
+.panel-big > span { display: block; font: 400 58px/1 var(--serif); letter-spacing: -0.03em; color: #fff; font-variation-settings: "opsz" 144; }
+.panel-big p { margin: 8px 0 0; font-size: 14.5px; line-height: 1.5; color: #b8c9be; }
+.panel-big b { color: #fff; }
+.unit-bars .label, .atlas-panel .label { color: var(--night-muted); }
+.ubar { display: grid; grid-template-columns: 1fr; gap: 5px; width: 100%; text-align: left; padding: 9px 10px; border: 0; border-radius: 10px; background: none; color: var(--night-ink); }
+.ubar:hover { background: rgba(255, 255, 255, 0.05); }
+.ubar-name { font-weight: 600; font-size: 13.5px; }
+.ubar-track { height: 6px; border-radius: 6px; background: rgba(255, 255, 255, 0.07); overflow: hidden; }
+.ubar-fill { display: block; height: 100%; border-radius: 6px; box-shadow: 0 0 10px currentColor; }
+.ubar-v { font-size: 12px; color: var(--night-muted); }
+.p-list { display: grid; gap: 2px; }
+.p-row { display: flex; gap: 12px; align-items: center; padding: 10px; border-radius: 12px; color: var(--night-ink); }
+.p-row:hover:not(.static) { background: rgba(255, 255, 255, 0.05); }
+.p-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+.p-dot.high { background: var(--glow-high); box-shadow: 0 0 10px var(--glow-high); }
+.p-dot.medium { background: var(--glow-medium); box-shadow: 0 0 10px var(--glow-medium); }
+.p-dot.watch { background: var(--glow-watch); }
+.p-dot.clear { background: var(--glow-clear); }
+.p-title { display: block; font-size: 13.5px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.p-meta { display: block; font-size: 12px; color: var(--night-muted); margin-top: 2px; }
+.p-icons { display: flex; gap: 5px; color: #e9b39d; --icon-accent: #e2c270; }
+.p-dup { width: 32px; height: 32px; flex-shrink: 0; border-radius: 10px; display: grid; place-items: center; background: rgba(255, 106, 77, 0.14); color: #ff9a82; --icon-accent: #ff6a4d; }
+.p-more { display: inline-flex; align-items: center; gap: 6px; margin-top: 12px; padding: 9px 14px; border-radius: 10px; background: rgba(226, 194, 112, 0.12); color: #e8c66e; font-size: 13px; font-weight: 600; }
+.p-more:hover { background: rgba(226, 194, 112, 0.22); }
+.p-empty { padding: 30px 10px; text-align: center; color: var(--night-muted); }
+.p-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 16px; }
+.p-metric { padding: 12px 14px; border-radius: 12px; background: rgba(242, 163, 58, 0.1); border: 1px solid rgba(242, 163, 58, 0.2); }
+.p-metric.ok { background: rgba(95, 194, 142, 0.1); border-color: rgba(95, 194, 142, 0.22); }
+.p-metric b { display: block; font: 500 26px/1.1 var(--serif); color: #fff; }
+.p-metric span { font-size: 12px; color: var(--night-muted); }
+.p-note { margin-top: 16px; padding: 12px 14px; border-radius: 12px; background: rgba(255, 255, 255, 0.04); font-size: 12.5px; color: #b8c9be; line-height: 1.5; }
+.p-note b { color: #fff; }
+.p-ribbon { margin: 0 -8px 16px; padding: 8px; border-radius: 14px; background: rgba(255, 255, 255, 0.03); }
+.p-chart { padding: 8px 0; }
+.p-chart text { fill: var(--night-muted); }
+.share-bar { position: relative; display: block; height: 5px; margin-top: 6px; border-radius: 5px; background: rgba(255, 255, 255, 0.08); }
+.share-bar span { display: block; height: 100%; border-radius: 5px; background: #d9c46a; }
+.share-bar i { position: absolute; top: -3px; bottom: -3px; width: 2px; background: #fff; opacity: 0.6; }
+.ribbon.dark .ribbon-value { color: #fff; }
+.ribbon.dark .ribbon-name { color: var(--night-muted); }
+.ribbon.dark .ribbon-name .muted { color: #5f7a6d; }
+.ribbon.dark text { fill: #ff9a82; }
+.ribbon.dark .ribbon-labels > div:nth-child(2), .ribbon.dark .ribbon-labels > div:nth-child(3) { display: none; }
+
+@media (max-width: 1100px) {
+  .atlas-stage { grid-template-columns: 1fr; height: auto; }
+  .atlas-canvas { height: 70vh; }
+  .atlas-panel { border-left: 0; }
+}
+@media (max-width: 640px) {
+  .lens span { display: none; }
+  .atlas-canvas .atlas-map { inset: 110px 6px 50px; }
+}
+.atlas-panel { overflow-x: hidden; }
+.p-list > * { min-width: 0; }
+.p-icons { flex-shrink: 0; }
+
+/* fund utilisation */
+.util-row { display: grid; grid-template-columns: minmax(0, 1.1fr) 1fr auto; gap: 10px; align-items: center; padding: 6px 2px; font-size: 12.5px; }
+.util-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.util-bar { position: relative; height: 8px; border-radius: 4px; background: rgba(255, 255, 255, 0.08); }
+.util-bar span { position: absolute; inset: 0 auto 0 0; border-radius: 4px; background: #e2c270; }
+.util-row.slow .util-bar span { background: #ff6a4d; }
+.util-row.slow b { color: #ff9b85; }
+.util-bar i { position: absolute; top: -3px; bottom: -3px; width: 2px; background: #fff; opacity: 0.7; }
+.p-more svg:first-child { --icon-accent: #ff6a4d; }

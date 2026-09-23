@@ -55,8 +55,9 @@ export default function Login() {
           <Shield size={22} color="#C9A227" />
           <span className="serif-font">Sentinel</span>
         </div>
-        <div className="login-subtitle">Sign in to your dashboard</div>
+        <div className="login-subtitle">Explore a demo jurisdiction</div>
 
+        <p className="login-role-hint">Local demonstration. Selecting a role does not verify official identity. Use sample data only.</p>
         <label className="login-label">Name</label>
         <input
           className="citizen-input"

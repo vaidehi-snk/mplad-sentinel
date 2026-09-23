@@ -1,19 +1,13 @@
-// A real Isolation Forest, implemented from scratch. This is the same
-// algorithm scikit-learn's IsolationForest uses (Liu, Ting & Zhou, 2008):
-// build many random trees that isolate points by random splits; points
-// that get isolated in fewer splits (shorter average path length across
-// all trees) are more anomalous, because they're "easier to separate"
-// from the rest of the data.
-//
-// Why implement it here instead of calling scikit-learn: this project's
-// backend is Node/Express, and adding a Python service just for one model
-// means two languages, two deploy targets, and a network hop for every
-// score. A from-scratch JS version keeps the whole system deployable as
-// one service, and -- just as important for a hackathon defense -- means
-// your team can actually explain every line of it if a judge asks.
+// Seeded Isolation Forest for reproducible exploratory anomaly ranking.
+// Model scores are not calibrated probabilities of fraud.
+function seededRandom(seed) {
+  let state = seed >>> 0;
+  return () => { state = (Math.imul(1664525, state) + 1013904223) >>> 0; return state / 4294967296; };
+}
 
 class IsolationTree {
-  constructor(maxDepth) {
+  constructor(maxDepth, random) {
+    this.random = random;
     this.maxDepth = maxDepth;
     this.splitFeature = null;
     this.splitValue = null;
@@ -31,7 +25,10 @@ class IsolationTree {
     }
 
     const numFeatures = data[0].length;
-    this.splitFeature = Math.floor(Math.random() * numFeatures);
+    const varying = Array.from({length: numFeatures}, (_, f) => f)
+      .filter(f => data.some(row => row[f] !== data[0][f]));
+    if (!varying.length) { this.isLeaf = true; return; }
+    this.splitFeature = varying[Math.floor(this.random() * varying.length)];
 
     const values = data.map((row) => row[this.splitFeature]);
     const min = Math.min(...values);
@@ -41,7 +38,7 @@ class IsolationTree {
       return;
     }
 
-    this.splitValue = min + Math.random() * (max - min);
+    this.splitValue = min + this.random() * (max - min);
 
     const leftData = data.filter((row) => row[this.splitFeature] < this.splitValue);
     const rightData = data.filter((row) => row[this.splitFeature] >= this.splitValue);
@@ -51,9 +48,9 @@ class IsolationTree {
       return;
     }
 
-    this.left = new IsolationTree(this.maxDepth);
+    this.left = new IsolationTree(this.maxDepth, this.random);
     this.left.fit(leftData, depth + 1);
-    this.right = new IsolationTree(this.maxDepth);
+    this.right = new IsolationTree(this.maxDepth, this.random);
     this.right.fit(rightData, depth + 1);
   }
 
@@ -77,12 +74,14 @@ class IsolationTree {
 // different sample sizes.
 function averagePathLength(n) {
   if (n <= 1) return 0;
+  if (n === 2) return 1;
   const EULER_GAMMA = 0.5772156649;
   return 2 * (Math.log(n - 1) + EULER_GAMMA) - (2 * (n - 1)) / n;
 }
 
 export class IsolationForest {
-  constructor({ numTrees = 100, sampleSize = 256 } = {}) {
+  constructor({ numTrees = 100, sampleSize = 256, seed = 26102 } = {}) {
+    this.seed = seed;
     this.numTrees = numTrees;
     this.sampleSize = sampleSize;
     this.trees = [];
@@ -108,6 +107,10 @@ export class IsolationForest {
   }
 
   fit(data) {
+    if (!data.length || !data[0].length || data.some(row => row.length !== data[0].length || row.some(v => !Number.isFinite(v)))) throw new Error('Expected finite rectangular training data');
+    this.featureMeans = [];
+    this.featureStds = [];
+    const random = seededRandom(this.seed);
     const normalized = this.normalize(data);
     const sampleN = Math.min(this.sampleSize, normalized.length);
     const maxDepth = Math.ceil(Math.log2(sampleN || 2));
@@ -115,10 +118,10 @@ export class IsolationForest {
     this.trees = [];
     for (let i = 0; i < this.numTrees; i++) {
       const sample = [];
-      for (let j = 0; j < sampleN; j++) {
-        sample.push(normalized[Math.floor(Math.random() * normalized.length)]);
-      }
-      const tree = new IsolationTree(maxDepth);
+      const chosen = new Set();
+      while (chosen.size < sampleN) chosen.add(Math.floor(random() * normalized.length));
+      for (const index of chosen) sample.push(normalized[index]);
+      const tree = new IsolationTree(maxDepth, random);
       tree.fit(sample);
       this.trees.push(tree);
     }
@@ -133,7 +136,7 @@ export class IsolationForest {
     const avgPathLength =
       this.trees.reduce((sum, tree) => sum + tree.pathLength(normalized), 0) / this.trees.length;
     const c = averagePathLength(this._trainSampleSize);
-    return Math.pow(2, -avgPathLength / c);
+    return c === 0 ? 0.5 : Math.pow(2, -avgPathLength / c);
   }
 
   scoreAll(data) {

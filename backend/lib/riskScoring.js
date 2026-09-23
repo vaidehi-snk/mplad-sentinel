@@ -55,6 +55,7 @@ export function buildGroupStats(rows) {
 export function buildBatchCounts(rows) {
   const counts = {};
   for (const r of rows) {
+    if (!r.implementing_agency_name || !parseIndianDate(r.date_of_administrative_approval)) continue;
     const key = r.implementing_agency_name + "|" + r.date_of_administrative_approval;
     counts[key] = (counts[key] || 0) + 1;
   }
@@ -64,7 +65,7 @@ export function buildBatchCounts(rows) {
 function normalizeWorkName(name = "") {
   return name
     .toLowerCase()
-    .replace(/[^a-z0-9\s]/g, "")
+    .replace(/[^\p{L}\p{N}\s]/gu, "")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -76,6 +77,7 @@ function normalizeWorkName(name = "") {
 export function buildDuplicateGroups(rows) {
   const groups = {};
   for (const r of rows) {
+    if (!r.unique_work_number || !r.state || !r.constituency || !normalizeWorkName(r.work_name)) continue;
     const key = r.state + "|" + r.constituency + "|" + normalizeWorkName(r.work_name);
     (groups[key] ||= []).push(r.unique_work_number);
   }
@@ -92,13 +94,13 @@ export function buildDuplicateGroups(rows) {
 // Parses dd-mm-yyyy (the format used in the real MPLADS export). Returns
 // null if unparseable rather than throwing -- real government data has
 // blanks and inconsistent formats.
-function parseIndianDate(str) {
+export function parseIndianDate(str) {
   if (!str) return null;
   const m = String(str).trim().match(/^(\d{1,2})-(\d{1,2})-(\d{4})$/);
   if (!m) return null;
   const [, d, mo, y] = m;
   const date = new Date(Number(y), Number(mo) - 1, Number(d));
-  return isNaN(date.getTime()) ? null : date;
+  return date.getFullYear() === Number(y) && date.getMonth() === Number(mo) - 1 && date.getDate() === Number(d) ? date : null;
 }
 
 // Delay heuristic: how long ago a work was administratively approved,
@@ -108,12 +110,12 @@ function parseIndianDate(str) {
 // This is explicitly a heuristic given this data slice has no completion
 // date field; it's presented to the user as "long-pending", not "confirmed
 // delayed", and that distinction should stay in the UI copy.
-const LONG_PENDING_DAYS = 730; // ~2 years
+
 
 function delayInfo(row) {
   const approved = parseIndianDate(row.date_of_administrative_approval);
-  const asOf = parseIndianDate(row.data_as_on) || new Date();
-  if (!approved) return null;
+  const asOf = parseIndianDate(row.data_as_on);
+  if (!approved || !asOf) return null;
   const days = Math.round((asOf - approved) / (1000 * 60 * 60 * 24));
   return days;
 }
@@ -129,15 +131,15 @@ export function buildIsolationScores(rows, stats, batchCounts) {
     const cat = categorizeWork(row.work_name);
     const gKey = row.state + "|" + cat;
     const group = stats.groupMedians[gKey];
-    const baseline = group && group.n >= MIN_GROUP_SAMPLE ? group.median : stats.stateMedians[row.state];
+    const baseline = group && group.n >= MIN_GROUP_SAMPLE && cat !== "other" ? group.median : null;
     const costRatio = baseline > 0 ? row.sanction_amount / baseline : 1;
     const batchKey = row.implementing_agency_name + "|" + row.date_of_administrative_approval;
     const batchSize = batchCounts[batchKey] || 1;
-    const daysPending = delayInfo(row) || 0;
-    return [row.sanction_amount, costRatio, batchSize, daysPending];
+
+    return [row.sanction_amount, costRatio, batchSize];
   });
 
-  if (features.length < 10) {
+  if (features.length < 30) {
     // Isolation Forest needs a reasonable sample to mean anything; on tiny
     // datasets, return neutral scores rather than a statistically
     // meaningless result dressed up as ML.
@@ -149,14 +151,14 @@ export function buildIsolationScores(rows, stats, batchCounts) {
   return forest.scoreAll(features);
 }
 
-const MIN_GROUP_SAMPLE = 3;
+const MIN_GROUP_SAMPLE = 5;
 
 export function scoreWork(row, stats, batchCounts, duplicateCounts = {}, mlScore = null) {
   const cat = categorizeWork(row.work_name);
   const gKey = row.state + "|" + cat;
   const group = stats.groupMedians[gKey];
   const baseline =
-    group && group.n >= MIN_GROUP_SAMPLE ? group.median : stats.stateMedians[row.state];
+    group && group.n >= MIN_GROUP_SAMPLE && cat !== "other" ? group.median : null;
 
   const costRatio = baseline > 0 ? row.sanction_amount / baseline : 1;
   const batchKey = row.implementing_agency_name + "|" + row.date_of_administrative_approval;
@@ -171,7 +173,7 @@ export function scoreWork(row, stats, batchCounts, duplicateCounts = {}, mlScore
     const weight = Math.min(40, Math.round((costRatio - 1) * 22));
     score += weight;
     reasons.push({
-      label: `Cost ${costRatio.toFixed(1)}x the median for similar "${cat}" works in ${row.state}`,
+      label: `Sanction ${costRatio.toFixed(1)}x the category median (${group.n} ${cat} records in ${row.state}); quantities and specifications require review`,
       weight,
     });
   }
@@ -189,25 +191,13 @@ export function scoreWork(row, stats, batchCounts, duplicateCounts = {}, mlScore
     const weight = Math.min(30, dupCount * 12);
     score += weight;
     reasons.push({
-      label: `${dupCount} works with near-identical descriptions found in the same constituency`,
+      label: `${dupCount} distinct work IDs share an identical normalized description in this constituency; verify asset and phase before treating as duplication`,
       weight,
     });
   }
 
-  if (daysPending !== null && daysPending >= LONG_PENDING_DAYS) {
-    const years = (daysPending / 365).toFixed(1);
-    const weight = 15;
-    score += weight;
-    reasons.push({
-      label: `Long-pending: sanctioned ${years} years ago with no status update beyond initial approval (heuristic, not a confirmed delay)`,
-      weight,
-    });
-  }
-
-  if (!row.work_status || !row.work_status.toLowerCase().includes("approved")) {
-    score += 10;
-    reasons.push({ label: `Unusual status on record: "${row.work_status || "blank"}"`, weight: 10 });
-  }
+  // An approval-only export cannot establish whether a work is still open.
+  // Age and absent status are data limitations, not adverse findings.
 
   // Real ML signal (Isolation Forest), kept separate from and additive to
   // the rule-based checks above. Labeled explicitly so it's never confused
@@ -218,7 +208,7 @@ export function scoreWork(row, stats, batchCounts, duplicateCounts = {}, mlScore
       const weight = Math.round((mlScore - 0.5) * 60);
       score += weight;
       reasons.push({
-        label: `Isolation Forest (ML) flagged this as a statistical outlier across cost, timing and batching (score ${mlScore.toFixed(2)})`,
+        label: `Isolation Forest (ML) flagged this as a statistical outlier across sanction amounts and approval batching (score ${mlScore.toFixed(2)})`,
         weight,
       });
     }
@@ -226,8 +216,8 @@ export function scoreWork(row, stats, batchCounts, duplicateCounts = {}, mlScore
 
   score = Math.min(100, score);
   if (reasons.length === 0) {
-    reasons.push({ label: "No anomaly signals triggered against comparable works", weight: score || 5 });
-    score = score || 5;
+    reasons.push({ label: "No available rule triggered; missing evidence is not assurance of compliance", weight: 0 });
+    score = 0;
   }
 
   const level = score >= 55 ? "high" : score >= 28 ? "medium" : "low";
