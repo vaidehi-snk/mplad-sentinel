@@ -321,5 +321,5 @@ app.post("/api/ledger/verify", auth, (_req, res) => {
 });
 
 const PORT = process.env.PORT || 4000;
-if (process.env.NODE_ENV !== "test") app.listen(PORT, "127.0.0.1", () => console.log(`Sentinel API on http://127.0.0.1:${PORT} — ${E.works.length} works screened`));
+if (process.env.NODE_ENV !== "test") app.listen(PORT, "0.0.0.0", () => console.log(`Sentinel API on port ${PORT} — ${E.works.length} works screened`));
 export { app, E };
