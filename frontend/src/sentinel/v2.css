@@ -1,0 +1,83 @@
+/* ===== Sentinel v2 — calmer structure, living surface ===== */
+:root {
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35  0 0 0 0 .3  0 0 0 0 .2  0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --night: #0b1f17;
+  --night-2: #10291f;
+  --night-3: #173528;
+  --night-ink: #d9e6dd;
+  --night-muted: #8fa89b;
+  --glow-high: #ff6a4d;
+  --glow-medium: #f2a33a;
+  --glow-watch: #d9c46a;
+  --glow-clear: #5fc28e;
+}
+body::before { background-image: var(--grain); opacity: 1; }
+body { background: radial-gradient(1200px 600px at 85% -10%, #efe6cf 0%, transparent 60%), var(--paper); }
+.app { min-height: 100vh; }
+.app-dark { background: var(--night); color: var(--night-ink); }
+.app-dark body, .app-dark::before { background: var(--night); }
+
+/* ---------- dock ---------- */
+.dock-wrap { position: sticky; top: 0; z-index: 40; padding: 12px 20px 0; pointer-events: none; }
+.dock-inner { pointer-events: auto; max-width: 1480px; margin: 0 auto; display: flex; align-items: center; gap: 18px; height: 60px; padding: 0 10px 0 16px;
+  background: color-mix(in srgb, var(--card) 82%, transparent); backdrop-filter: blur(14px) saturate(1.3); border: 1px solid var(--rule); border-radius: 18px;
+  box-shadow: 0 10px 30px -18px rgba(13, 30, 22, 0.35); }
+.app-dark .dock-inner { background: rgba(16, 41, 31, 0.78); border-color: rgba(255, 255, 255, 0.08); color: var(--night-ink); }
+.app-dark .brand-name { color: #f3efe2; }
+.app-dark .brand-sub { color: var(--night-muted); }
+.mark-ring { transform-origin: 16px 16px; animation: spin 18s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.dock { position: relative; display: flex; align-items: center; gap: 4px; margin: 0 auto; padding: 4px; border-radius: 13px; background: var(--paper-2); }
+.app-dark .dock { background: rgba(255, 255, 255, 0.06); }
+.dock-item { position: relative; display: flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 10px; font-weight: 500; font-size: 14px; color: var(--ink-2); z-index: 0; transition: color .2s; }
+.dock-item:hover { color: var(--ink); }
+.dock-item.on { color: #f4f1e6; }
+.app-dark .dock-item { color: var(--night-muted); }
+.app-dark .dock-item.on, .app-dark .dock-item:hover { color: #fff; }
+.dock-pill { position: absolute; inset: 0; border-radius: 10px; background: var(--forest); z-index: -1; box-shadow: 0 4px 14px -6px rgba(20, 69, 47, 0.7); }
+.dock-item svg { --icon-accent: var(--brass-2); }
+.dock-cta { display: flex; align-items: center; gap: 8px; margin-left: 6px; padding: 8px 14px; border-radius: 10px; font-weight: 600; font-size: 13.5px;
+  background: linear-gradient(180deg, #d7b35c, #b88f2e); color: #1d1606; box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35), 0 6px 16px -8px rgba(168, 123, 34, 0.9); }
+.dock-cta svg { --icon-accent: #14452f; }
+.dock-cta:hover { filter: brightness(1.05); }
+.top-right { display: flex; align-items: center; gap: 10px; }
+.live-chip { display: inline-flex; align-items: center; gap: 7px; padding: 6px 11px; border-radius: 20px; font-size: 12px; font-weight: 600; border: 1px solid var(--rule); background: var(--card); }
+.app-dark .live-chip { background: rgba(255, 255, 255, 0.05); border-color: rgba(255, 255, 255, 0.1); }
+.app-dark .live-chip .muted { color: var(--night-muted); }
+.live-dot { width: 8px; height: 8px; border-radius: 50%; background: #2fae6e; box-shadow: 0 0 0 0 rgba(47, 174, 110, 0.6); animation: breathe 2.2s ease-out infinite; }
+@keyframes breathe { 0% { box-shadow: 0 0 0 0 rgba(47, 174, 110, 0.55); } 70% { box-shadow: 0 0 0 8px rgba(47, 174, 110, 0); } 100% { box-shadow: 0 0 0 0 rgba(47, 174, 110, 0); } }
+.icon-btn { width: 38px; height: 38px; display: grid; place-items: center; border-radius: 11px; border: 1px solid var(--rule); background: var(--card); color: var(--ink-2); }
+.icon-btn:hover { color: var(--ink); border-color: var(--brass-2); }
+.app-dark .icon-btn { background: rgba(255, 255, 255, 0.05); border-color: rgba(255, 255, 255, 0.1); color: var(--night-ink); }
+.nameplate .seal { background: linear-gradient(180deg, #e2c270, #c29a3e); }
+.palette-foot { display: flex; gap: 18px; padding: 10px 16px; border-top: 1px solid var(--rule); font-size: 11.5px; color: var(--muted); background: var(--paper); }
+.palette li button svg { --icon-accent: var(--brass); color: var(--ink-2); }
+
+/* ---------- desk tiles (landing + switcher) ---------- */
+.desk-card { background: var(--card); border-radius: 16px; padding: 20px; }
+.desk-icon { width: 44px; height: 44px; border-radius: 13px; background: var(--forest); color: #f3eee0; box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.18); }
+.desk-title { font: 600 17px/1.25 var(--serif); margin-bottom: 2px; }
+.desk-does { font-size: 13.5px; margin: 10px 0 0; color: var(--ink-2); line-height: 1.45; }
+
+/* ---------- shared bits ---------- */
+.page-v2 { max-width: 1480px; margin: 0 auto; padding: 30px 28px 90px; }
+.greet { font: 400 44px/1.1 var(--serif); letter-spacing: -0.025em; margin: 0; font-variation-settings: "SOFT" 60, "opsz" 96; }
+.greet b { font-weight: 600; color: var(--forest-ink); }
+.greet .soft { color: var(--muted); font-style: italic; }
+.sub-greet { font-size: 16.5px; color: var(--ink-2); margin: 12px 0 0; max-width: 70ch; }
+.sub-greet b { color: var(--ink); font-weight: 600; }
+.glass { background: color-mix(in srgb, var(--card) 88%, transparent); backdrop-filter: blur(12px); border: 1px solid var(--rule); border-radius: 18px; box-shadow: 0 20px 50px -30px rgba(13, 30, 22, 0.4); }
+.kbd-inline { font: 600 11px/1 var(--mono); padding: 3px 6px; border-radius: 5px; border: 1px solid currentColor; opacity: 0.7; margin-left: 6px; }
+@media (max-width: 1100px) {
+  .dock-cta span, .live-chip .muted, .brand-sub { display: none; }
+  .dock-item { padding: 8px 12px; }
+}
+@media (max-width: 760px) {
+  .dock-wrap { padding: 8px 8px 0; }
+  .dock-inner { gap: 8px; padding: 0 8px; }
+  .brand > span, .live-chip, .nameplate small, .nameplate b { display: none; }
+  .nameplate { padding: 4px; }
+  .dock-item span { display: none; }
+  .greet { font-size: 30px; }
+  .page-v2 { padding: 22px 14px 70px; }
+}
