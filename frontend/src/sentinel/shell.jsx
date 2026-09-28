@@ -78,7 +78,7 @@ export function Shell() {
             </nav>
             <div className="top-right">
               <span className="live-chip" title="Every work in your jurisdiction is re-screened whenever its record changes">
-                <span className="live-dot" /><span>Live</span><span className="muted tnum">{screened ? `${int(screened)} works` : "…"}</span>
+                <span className="live-dot" /><span>Demo</span><span className="muted tnum">{screened ? `${int(screened)} works` : "…"}</span>
               </span>
               <button className="icon-btn" onClick={() => setPalette(true)} aria-label="Search (Ctrl+K)" title="Search · Ctrl K"><Search size={17} /></button>
               <button className="nameplate" onClick={() => setPicker(true)} title="Switch desk">
